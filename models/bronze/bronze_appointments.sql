@@ -1,4 +1,4 @@
-{{ config(materialized='table', schema='bronze', tags=['bronze','appointments'], description='Raw appointment data with minimal transformations') }}
+{{ config(materialized='table', schema='bronze', tags=['bronze','appointments'], description='Raw appointment data with minimal transformations added comment.') }}
 
 SELECT
   appointment_id,
