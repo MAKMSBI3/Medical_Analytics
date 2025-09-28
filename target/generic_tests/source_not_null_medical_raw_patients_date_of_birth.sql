@@ -1,0 +1,1 @@
+{{ test_not_null(column_name="date_of_birth", model=get_where_subquery(source('medical_raw', 'patients'))) }}

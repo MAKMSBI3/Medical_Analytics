@@ -1,0 +1,1 @@
+{{ test_relationships(column_name="patient_id", field="patient_id", model=get_where_subquery(source('medical_raw', 'appointments')), to=source('medical_raw','patients')) }}

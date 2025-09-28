@@ -1,0 +1,89 @@
+version: 2
+
+sources:
+  - name: medical_raw
+    description: "Raw medical data from source systems"
+    database: "{{ var('source_database') }}"
+    schema: "{{ var('source_schema') }}"
+    freshness:
+      warn_after: {count: 24, period: hour}
+      error_after: {count: 48, period: hour}
+    tables:
+      - name: patients
+        description: "Patient demographic and contact information"
+        loaded_at_field: created_at
+        columns:
+          - name: patient_id
+            description: "Unique patient identifier"
+            tests: [unique, not_null]
+          - name: first_name
+            description: "Patient first name"
+            tests: [not_null]
+          - name: last_name
+            description: "Patient last name"
+            tests: [not_null]
+          - name: date_of_birth
+            description: "Patient date of birth"
+            tests: [not_null]
+          - name: gender
+            description: "Patient gender"
+            tests:
+              - accepted_values:
+                  values: ['M', 'F']
+          - name: email
+            description: "Patient email address"
+            tests: [unique]
+      - name: doctors
+        description: "Healthcare provider information"
+        loaded_at_field: hired_date
+        columns:
+          - name: doctor_id
+            description: "Unique doctor identifier"
+            tests: [unique, not_null]
+          - name: doctor_name
+            description: "Doctor full name"
+            tests: [not_null]
+          - name: specialty
+            description: "Medical specialty"
+            tests: [not_null]
+      - name: appointments
+        description: "Patient appointment scheduling data"
+        loaded_at_field: created_at
+        columns:
+          - name: appointment_id
+            description: "Unique appointment identifier"
+            tests: [unique, not_null]
+          - name: patient_id
+            description: "Reference to patient"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('medical_raw','patients')
+                  field: patient_id
+          - name: doctor_id
+            description: "Reference to doctor"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('medical_raw','doctors')
+                  field: doctor_id
+      - name: medical_records
+        description: "Patient medical records and diagnoses"
+        loaded_at_field: created_at
+        columns:
+          - name: record_id
+            description: "Unique medical record identifier"
+            tests: [unique, not_null]
+          - name: diagnosis
+            description: "Medical diagnosis"
+            tests: [not_null]
+      - name: billing
+        description: "Patient billing and payment information"
+        loaded_at_field: created_at
+        columns:
+          - name: billing_id
+            description: "Unique billing record identifier"
+            tests: [unique, not_null]
+          - name: total_amount
+            description: "Total billing amount"
+            tests: [not_null]

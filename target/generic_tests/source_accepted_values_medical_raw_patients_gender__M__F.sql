@@ -1,0 +1,1 @@
+{{ test_accepted_values(column_name="gender", model=get_where_subquery(source('medical_raw', 'patients')), values=["M","F"]) }}

@@ -1,0 +1,6 @@
+diagnosis_name,diagnosis_category,icd_10_code
+Hypertension,Cardiovascular,I10
+Diabetes Mellitus,Endocrine,E11
+Common Cold,Respiratory,J00
+Migraine,Neurological,G43
+Fracture,Orthopedic,S52.5

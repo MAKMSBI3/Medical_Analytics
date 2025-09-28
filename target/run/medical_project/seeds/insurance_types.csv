@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table MEDICAL_DB.reference.insurance_types (insurance_type text,category text)
+  ;
+    -- dbt seed --
+    
+            insert into MEDICAL_DB.reference.insurance_types (insurance_type, category) values
+            (%s,%s),(%s,%s),(%s,%s),(%s,%s)
+        
+
+;
+  

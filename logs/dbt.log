@@ -1,0 +1,1945 @@
+[0m21:30:21.330065 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:30:21.367215 | 7e032a7e-6a6f-4a78-b643-f3650fc68926 ==============================
+[0m21:30:21.367215 [info ] [MainThread]: Running with dbt=1.9.0
+[0m21:30:21.368441 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'c:\\Users\\ADMIN\\dbt_core\\medical_project\\logs', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:30:21.564080 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:30:21.566095 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:30:21.568089 [debug] [MainThread]: Command `cli deps` succeeded at 21:30:21.568089 after 0.33 seconds
+[0m21:30:21.568089 [debug] [MainThread]: Flushing usage events
+[0m21:33:36.847897 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:33:36.891700 | 36e9c935-ba77-41fa-8fc3-21ffef5b4b76 ==============================
+[0m21:33:36.891700 [info ] [MainThread]: Running with dbt=1.9.0
+[0m21:33:36.893712 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\ADMIN\\dbt_core\\medical_project\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:33:37.771991 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m21:33:38.463911 [debug] [MainThread]: checksum: c99e828bba267739642b5a3ce85f17518764ea526e0e6c4fdc649171c1a66bff, vars: {}, profile: , target: , version: 1.9.0
+[0m21:33:38.465929 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m21:33:43.487618 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\ADMIN\dbt_core\medical_project\target\manifest.json
+[0m21:33:43.539103 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\ADMIN\dbt_core\medical_project\target\semantic_manifest.json
+[0m21:33:43.587528 [info ] [MainThread]: Found 17 models, 2 snapshots, 24 data tests, 3 seeds, 5 sources, 483 macros
+[0m21:33:43.593884 [info ] [MainThread]: 
+[0m21:33:43.594891 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m21:33:43.596470 [info ] [MainThread]: 
+[0m21:33:43.598672 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:33:43.612819 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB'
+[0m21:33:43.614607 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB'
+[0m21:33:43.637892 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB'
+[0m21:33:46.782878 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:33:46.830315 | 77c6030b-5994-4f83-be56-011b29d0163b ==============================
+[0m21:33:46.830315 [info ] [MainThread]: Running with dbt=1.9.0
+[0m21:33:46.832838 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'c:\\Users\\ADMIN\\dbt_core\\medical_project\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt ', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:33:47.097168 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:33:47.099165 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m21:33:47.101810 [debug] [MainThread]: Command `cli deps` succeeded at 21:33:47.100300 after 0.42 seconds
+[0m21:33:47.102819 [debug] [MainThread]: Flushing usage events
+[0m21:33:48.041918 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB"
+[0m21:33:48.042437 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB"
+[0m21:33:48.042437 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB"
+[0m21:33:48.043951 [debug] [ThreadPool]: On list_MEDICAL_DB: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB"} */
+show terse schemas in database MEDICAL_DB
+    limit 10000
+[0m21:33:48.044967 [debug] [ThreadPool]: On list_MEDICAL_DB: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB"} */
+show terse schemas in database MEDICAL_DB
+    limit 10000
+[0m21:33:48.045984 [debug] [ThreadPool]: On list_MEDICAL_DB: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB"} */
+show terse schemas in database MEDICAL_DB
+    limit 10000
+[0m21:33:48.046976 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:33:48.047486 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:33:48.048495 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:33:49.003932 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.956 seconds
+[0m21:33:49.003932 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.956 seconds
+[0m21:33:49.065935 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.018 seconds
+[0m21:33:49.068935 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB, now create_MEDICAL_DB_gold)
+[0m21:33:49.068935 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB, now create_MEDICAL_DB_bronze)
+[0m21:33:49.069934 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB, now create_MEDICAL_DB_silver)
+[0m21:33:49.070938 [debug] [ThreadPool]: Creating schema "database: "MEDICAL_DB"
+schema: "gold"
+"
+[0m21:33:49.071934 [debug] [ThreadPool]: Creating schema "database: "MEDICAL_DB"
+schema: "bronze"
+"
+[0m21:33:49.073297 [debug] [ThreadPool]: Creating schema "database: "MEDICAL_DB"
+schema: "silver"
+"
+[0m21:33:49.080093 [debug] [ThreadPool]: Using snowflake connection "create_MEDICAL_DB_gold"
+[0m21:33:49.082609 [debug] [ThreadPool]: Using snowflake connection "create_MEDICAL_DB_bronze"
+[0m21:33:49.086591 [debug] [ThreadPool]: Using snowflake connection "create_MEDICAL_DB_silver"
+[0m21:33:49.086591 [debug] [ThreadPool]: On create_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "create_MEDICAL_DB_gold"} */
+create schema if not exists MEDICAL_DB.gold
+[0m21:33:49.087657 [debug] [ThreadPool]: On create_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "create_MEDICAL_DB_bronze"} */
+create schema if not exists MEDICAL_DB.bronze
+[0m21:33:49.088651 [debug] [ThreadPool]: On create_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "create_MEDICAL_DB_silver"} */
+create schema if not exists MEDICAL_DB.silver
+[0m21:33:49.219057 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.127 seconds
+[0m21:33:49.230206 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.141 seconds
+[0m21:33:49.237169 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.148 seconds
+[0m21:33:49.243868 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_gold'
+[0m21:33:49.244880 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_silver'
+[0m21:33:49.263304 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:33:49.267377 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:33:49.267377 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_bronze'
+[0m21:33:49.268654 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:33:49.269651 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:33:49.272288 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:33:49.273794 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:33:49.274805 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:33:49.274805 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:33:49.281725 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:33:49.542286 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.269 seconds
+[0m21:33:49.548814 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:33:49.549823 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+show objects in MEDICAL_DB.gold
+    limit 10000
+    
+;
+[0m21:33:49.553184 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.279 seconds
+[0m21:33:49.556703 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:33:49.556703 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+show objects in MEDICAL_DB.silver
+    limit 10000
+    
+;
+[0m21:33:49.613747 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.063 seconds
+[0m21:33:49.615765 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:33:49.617766 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.060 seconds
+[0m21:33:49.617766 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:33:49.620765 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:33:49.623409 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:33:49.681847 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.061 seconds
+[0m21:33:49.684873 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB_gold, now list_MEDICAL_DB_reference)
+[0m21:33:49.689416 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:33:49.690415 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:33:49.695941 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.414 seconds
+[0m21:33:49.697940 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:33:49.698940 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+show objects in MEDICAL_DB.bronze
+    limit 10000
+    
+;
+[0m21:33:49.701940 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.074 seconds
+[0m21:33:49.704935 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB_silver, now list_MEDICAL_DB_snapshots)
+[0m21:33:49.709256 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_snapshots"
+[0m21:33:49.709256 [debug] [ThreadPool]: On list_MEDICAL_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_snapshots"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:33:49.747720 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.056 seconds
+[0m21:33:49.749719 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:33:49.750720 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+show objects in MEDICAL_DB.reference
+    limit 10000
+    
+;
+[0m21:33:49.753442 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.043 seconds
+[0m21:33:49.756972 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_snapshots"
+[0m21:33:49.757968 [debug] [ThreadPool]: On list_MEDICAL_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_snapshots"} */
+show objects in MEDICAL_DB.snapshots
+    limit 10000
+    
+;
+[0m21:33:49.806563 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.107 seconds
+[0m21:33:49.809436 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:33:49.810432 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:33:49.856000 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.045 seconds
+[0m21:33:49.997753 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf5a8d-3201-f7f6-0000-00104c8e9355
+[0m21:33:49.997753 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf5a8d-3201-f7f5-0000-00104c8e8379
+[0m21:33:49.998754 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+[0m21:33:49.999758 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+[0m21:33:50.000751 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_relations_without_caching
+[0m21:33:50.001770 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_relations_without_caching
+[0m21:33:50.002287 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m21:33:50.002287 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m21:33:50.009348 [debug] [Thread-1 (]: Began running node model.medical_project.bronze_appointments
+[0m21:33:50.009348 [debug] [Thread-2 (]: Began running node model.medical_project.bronze_billing
+[0m21:33:50.010587 [debug] [Thread-3 (]: Began running node model.medical_project.bronze_doctors
+[0m21:33:50.011590 [info ] [Thread-1 (]: 1 of 17 START sql table model bronze.bronze_appointments ....................... [RUN]
+[0m21:33:50.012651 [info ] [Thread-2 (]: 2 of 17 START sql table model bronze.bronze_billing ............................ [RUN]
+[0m21:33:50.013657 [info ] [Thread-3 (]: 3 of 17 START sql table model bronze.bronze_doctors ............................ [RUN]
+[0m21:33:50.014657 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.medical_project.bronze_appointments'
+[0m21:33:50.015756 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.medical_project.bronze_billing'
+[0m21:33:50.016776 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.medical_project.bronze_doctors'
+[0m21:33:50.017787 [debug] [Thread-1 (]: Began compiling node model.medical_project.bronze_appointments
+[0m21:33:50.018793 [debug] [Thread-2 (]: Began compiling node model.medical_project.bronze_billing
+[0m21:33:50.019792 [debug] [Thread-3 (]: Began compiling node model.medical_project.bronze_doctors
+[0m21:33:50.034934 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.bronze_appointments"
+[0m21:33:50.040415 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.bronze_billing"
+[0m21:33:50.045629 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.bronze_doctors"
+[0m21:33:50.050567 [debug] [Thread-1 (]: Began executing node model.medical_project.bronze_appointments
+[0m21:33:50.051568 [debug] [Thread-2 (]: Began executing node model.medical_project.bronze_billing
+[0m21:33:50.065936 [debug] [Thread-3 (]: Began executing node model.medical_project.bronze_doctors
+[0m21:33:50.105905 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.bronze_appointments"
+[0m21:33:50.109904 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.bronze_billing"
+[0m21:33:50.114613 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.bronze_doctors"
+[0m21:33:50.119978 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.bronze_appointments"
+[0m21:33:50.121987 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.bronze_doctors"
+[0m21:33:50.122505 [debug] [Thread-1 (]: On model.medical_project.bronze_appointments: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_appointments"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_appointments
+    
+
+    
+    as (
+
+SELECT
+  appointment_id,
+  patient_id,
+  doctor_id,
+  appointment_date,
+  appointment_type,
+  status,
+  duration_minutes,
+  notes,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '36e9c935-ba77-41fa-8fc3-21ffef5b4b76' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.appointments
+WHERE appointment_id IS NOT NULL
+    )
+;
+[0m21:33:50.124013 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.bronze_billing"
+[0m21:33:50.125030 [debug] [Thread-3 (]: On model.medical_project.bronze_doctors: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_doctors"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_doctors
+    
+
+    
+    as (
+
+SELECT
+  doctor_id,
+  doctor_name,
+  specialty,
+  department_id,
+  phone,
+  email,
+  license_number,
+  years_experience,
+  is_active,
+  hired_date,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '36e9c935-ba77-41fa-8fc3-21ffef5b4b76' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.doctors
+WHERE doctor_id IS NOT NULL
+    )
+;
+[0m21:33:50.126045 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:33:50.127047 [debug] [Thread-2 (]: On model.medical_project.bronze_billing: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_billing"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_billing
+    
+
+    
+    as (
+
+SELECT
+  billing_id,
+  appointment_id,
+  patient_id,
+  total_amount,
+  insurance_paid,
+  patient_paid,
+  billing_date,
+  payment_status,
+  insurance_claim_number,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '36e9c935-ba77-41fa-8fc3-21ffef5b4b76' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.billing
+WHERE billing_id IS NOT NULL
+    )
+;
+[0m21:33:50.127556 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m21:33:50.131565 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:33:51.453411 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.327 seconds
+[0m21:33:51.456948 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 1.329 seconds
+[0m21:33:51.488778 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 1.358 seconds
+[0m21:33:51.493390 [info ] [Thread-1 (]: 1 of 17 OK created sql table model bronze.bronze_appointments .................. [[32mSUCCESS 1[0m in 1.47s]
+[0m21:33:51.495905 [debug] [Thread-1 (]: Finished running node model.medical_project.bronze_appointments
+[0m21:33:51.494898 [info ] [Thread-3 (]: 3 of 17 OK created sql table model bronze.bronze_doctors ....................... [[32mSUCCESS 1[0m in 1.47s]
+[0m21:33:51.494898 [info ] [Thread-2 (]: 2 of 17 OK created sql table model bronze.bronze_billing ....................... [[32mSUCCESS 1[0m in 1.48s]
+[0m21:33:51.497336 [debug] [Thread-1 (]: Began running node model.medical_project.bronze_medical_records
+[0m21:33:51.498224 [debug] [Thread-3 (]: Finished running node model.medical_project.bronze_doctors
+[0m21:33:51.499178 [debug] [Thread-2 (]: Finished running node model.medical_project.bronze_billing
+[0m21:33:51.499178 [info ] [Thread-1 (]: 4 of 17 START sql table model bronze.bronze_medical_records .................... [RUN]
+[0m21:33:51.500168 [debug] [Thread-3 (]: Began running node model.medical_project.bronze_patients
+[0m21:33:51.501503 [debug] [Thread-2 (]: Began running node model.medical_project.silver_appointments
+[0m21:33:51.502008 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_appointments, now model.medical_project.bronze_medical_records)
+[0m21:33:51.503550 [info ] [Thread-3 (]: 5 of 17 START sql table model bronze.bronze_patients ........................... [RUN]
+[0m21:33:51.503550 [info ] [Thread-2 (]: 6 of 17 START sql table model silver.silver_appointments ....................... [RUN]
+[0m21:33:51.505055 [debug] [Thread-1 (]: Began compiling node model.medical_project.bronze_medical_records
+[0m21:33:51.506080 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_doctors, now model.medical_project.bronze_patients)
+[0m21:33:51.506080 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_billing, now model.medical_project.silver_appointments)
+[0m21:33:51.510065 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.bronze_medical_records"
+[0m21:33:51.511066 [debug] [Thread-3 (]: Began compiling node model.medical_project.bronze_patients
+[0m21:33:51.512073 [debug] [Thread-2 (]: Began compiling node model.medical_project.silver_appointments
+[0m21:33:51.516951 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.bronze_patients"
+[0m21:33:51.523496 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.silver_appointments"
+[0m21:33:51.525007 [debug] [Thread-1 (]: Began executing node model.medical_project.bronze_medical_records
+[0m21:33:51.529028 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.bronze_medical_records"
+[0m21:33:51.530027 [debug] [Thread-3 (]: Began executing node model.medical_project.bronze_patients
+[0m21:33:51.531239 [debug] [Thread-2 (]: Began executing node model.medical_project.silver_appointments
+[0m21:33:51.536641 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.bronze_patients"
+[0m21:33:51.537650 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.bronze_medical_records"
+[0m21:33:51.542162 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.silver_appointments"
+[0m21:33:51.543270 [debug] [Thread-1 (]: On model.medical_project.bronze_medical_records: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_medical_records"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_medical_records
+    
+
+    
+    as (
+
+SELECT
+  record_id,
+  appointment_id,
+  patient_id,
+  diagnosis,
+  treatment_plan,
+  prescription,
+  follow_up_required,
+  severity,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '36e9c935-ba77-41fa-8fc3-21ffef5b4b76' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.medical_records
+WHERE record_id IS NOT NULL
+    )
+;
+[0m21:33:51.543807 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.bronze_patients"
+[0m21:33:51.545980 [debug] [Thread-3 (]: On model.medical_project.bronze_patients: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_patients"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_patients
+    
+
+    
+    as (
+
+SELECT
+  patient_id,
+  first_name,
+  last_name,
+  date_of_birth,
+  gender,
+  blood_type,
+  phone,
+  email,
+  address,
+  city,
+  state,
+  zip_code,
+  insurance_type,
+  emergency_contact,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '36e9c935-ba77-41fa-8fc3-21ffef5b4b76' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.patients
+WHERE patient_id IS NOT NULL
+    )
+;
+[0m21:33:51.549091 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.silver_appointments"
+[0m21:33:51.552090 [debug] [Thread-2 (]: On model.medical_project.silver_appointments: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_appointments"} */
+create or replace transient table MEDICAL_DB.silver.silver_appointments
+    
+
+    
+    as (
+
+SELECT
+  appointment_id,
+  patient_id,
+  doctor_id,
+  appointment_date,
+  DATE(appointment_date) AS appointment_date_only,
+  TIME(appointment_date) AS appointment_time,
+  EXTRACT(HOUR FROM appointment_date) AS appointment_hour,
+  DAYNAME(appointment_date) AS day_of_week,
+  CASE WHEN DAYNAME(appointment_date) IN ('Saturday','Sunday') THEN 'Weekend' ELSE 'Weekday' END AS day_type,
+  CASE 
+    WHEN EXTRACT(HOUR FROM appointment_date) BETWEEN 6 AND 11 THEN 'Morning'
+    WHEN EXTRACT(HOUR FROM appointment_date) BETWEEN 12 AND 17 THEN 'Afternoon'
+    WHEN EXTRACT(HOUR FROM appointment_date) BETWEEN 18 AND 21 THEN 'Evening'
+    ELSE 'After Hours' END AS time_slot,
+  appointment_type,
+  status,
+  CASE WHEN status = 'Completed' THEN 1 ELSE 0 END AS is_completed,
+  CASE WHEN status = 'No-Show' THEN 1 ELSE 0 END AS is_no_show,
+  CASE WHEN status = 'Cancelled' THEN 1 ELSE 0 END AS is_cancelled,
+  duration_minutes,
+  CASE 
+    WHEN duration_minutes <= 15 THEN 'Short'
+    WHEN duration_minutes <= 45 THEN 'Standard'
+    ELSE 'Extended' END AS duration_category,
+  notes,
+  created_at,
+  updated_at,
+  dbt_loaded_at,
+  dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_appointments
+WHERE appointment_id IS NOT NULL
+    )
+;
+[0m21:33:52.150261 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.595 seconds
+[0m21:33:52.153702 [info ] [Thread-2 (]: 6 of 17 OK created sql table model silver.silver_appointments .................. [[32mSUCCESS 1[0m in 0.65s]
+[0m21:33:52.155218 [debug] [Thread-2 (]: Finished running node model.medical_project.silver_appointments
+[0m21:33:52.156369 [debug] [Thread-2 (]: Began running node model.medical_project.silver_doctors
+[0m21:33:52.157559 [info ] [Thread-2 (]: 7 of 17 START sql table model silver.silver_doctors ............................ [RUN]
+[0m21:33:52.158561 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_appointments, now model.medical_project.silver_doctors)
+[0m21:33:52.158561 [debug] [Thread-2 (]: Began compiling node model.medical_project.silver_doctors
+[0m21:33:52.164215 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.silver_doctors"
+[0m21:33:52.166726 [debug] [Thread-2 (]: Began executing node model.medical_project.silver_doctors
+[0m21:33:52.170762 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.silver_doctors"
+[0m21:33:52.174827 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.silver_doctors"
+[0m21:33:52.175837 [debug] [Thread-2 (]: On model.medical_project.silver_doctors: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_doctors"} */
+create or replace transient table MEDICAL_DB.silver.silver_doctors
+    
+
+    
+    as (
+
+WITH specialty_mapping AS (
+  SELECT * FROM MEDICAL_DB.reference.medical_specialties
+)
+SELECT
+  d.doctor_id,
+  TRIM(d.doctor_name) AS doctor_name,
+  TRIM(d.specialty) AS specialty,
+  COALESCE(sm.specialty_category,'Other') AS specialty_category,
+  d.department_id,
+  d.phone,
+  LOWER(TRIM(d.email)) AS email,
+  d.license_number,
+  d.years_experience,
+  CASE 
+    WHEN d.years_experience < 5 THEN 'Junior'
+    WHEN d.years_experience BETWEEN 5 AND 15 THEN 'Mid-Level'
+    WHEN d.years_experience BETWEEN 16 AND 25 THEN 'Senior'
+    ELSE 'Expert' END AS experience_level,
+  CASE 
+    WHEN d.specialty IN ('Emergency Medicine','Surgery') THEN 'Critical Care'
+    WHEN d.specialty IN ('Cardiology','Neurology','Oncology') THEN 'Specialty Care'
+    WHEN d.specialty IN ('Internal Medicine','Pediatrics') THEN 'Primary Care'
+    ELSE 'Other Care' END AS care_category,
+  d.is_active,
+  CASE WHEN d.is_active = 'Y' THEN TRUE ELSE FALSE END AS is_active_flag,
+  d.hired_date,
+  DATEDIFF('year', d.hired_date, CURRENT_DATE()) AS tenure_years,
+  d.dbt_loaded_at,
+  d.dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_doctors d
+LEFT JOIN specialty_mapping sm ON d.specialty = sm.specialty_name
+WHERE d.doctor_id IS NOT NULL
+    )
+;
+[0m21:33:52.180811 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.633 seconds
+[0m21:33:52.184836 [info ] [Thread-3 (]: 5 of 17 OK created sql table model bronze.bronze_patients ...................... [[32mSUCCESS 1[0m in 0.68s]
+[0m21:33:52.185842 [debug] [Thread-3 (]: Finished running node model.medical_project.bronze_patients
+[0m21:33:52.185842 [debug] [Thread-3 (]: Began running node model.medical_project.silver_billing
+[0m21:33:52.187355 [info ] [Thread-3 (]: 8 of 17 START sql table model silver.silver_billing ............................ [RUN]
+[0m21:33:52.188562 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_patients, now model.medical_project.silver_billing)
+[0m21:33:52.188562 [debug] [Thread-3 (]: Began compiling node model.medical_project.silver_billing
+[0m21:33:52.193103 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.silver_billing"
+[0m21:33:52.199645 [debug] [Thread-3 (]: Began executing node model.medical_project.silver_billing
+[0m21:33:52.205176 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.silver_billing"
+[0m21:33:52.207172 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.661 seconds
+[0m21:33:52.209637 [info ] [Thread-1 (]: 4 of 17 OK created sql table model bronze.bronze_medical_records ............... [[32mSUCCESS 1[0m in 0.71s]
+[0m21:33:52.212142 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.silver_billing"
+[0m21:33:52.213152 [debug] [Thread-1 (]: Finished running node model.medical_project.bronze_medical_records
+[0m21:33:52.214152 [debug] [Thread-3 (]: On model.medical_project.silver_billing: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_billing"} */
+create or replace transient table MEDICAL_DB.silver.silver_billing
+    
+
+    
+    as (
+
+SELECT
+  billing_id,
+  appointment_id,
+  patient_id,
+  total_amount,
+  insurance_paid,
+  patient_paid,
+  ROUND((insurance_paid / NULLIF(total_amount, 0)) * 100, 2) AS insurance_coverage_percentage,
+  CASE 
+    WHEN total_amount >= 1000 THEN 'High Value'
+    WHEN total_amount >= 500 THEN 'Medium Value'
+    ELSE 'Low Value' END AS revenue_tier,
+  CASE 
+    WHEN (insurance_paid / NULLIF(total_amount, 0)) >= 0.9 THEN 'Excellent Coverage'
+    WHEN (insurance_paid / NULLIF(total_amount, 0)) >= 0.7 THEN 'Good Coverage'
+    WHEN (insurance_paid / NULLIF(total_amount, 0)) >= 0.5 THEN 'Fair Coverage'
+    ELSE 'Poor Coverage' END AS coverage_quality,
+  billing_date,
+  DATEDIFF('day', billing_date, CURRENT_DATE()) AS days_since_billing,
+  payment_status,
+  CASE 
+    WHEN payment_status = 'Paid' THEN 'Collected'
+    WHEN payment_status = 'Pending' THEN 'Outstanding'
+    WHEN payment_status = 'Denied' THEN 'Collection'
+    ELSE 'Review' END AS collection_status,
+  CASE WHEN payment_status != 'Paid' AND DATEDIFF('day', billing_date, CURRENT_DATE()) > 30 THEN 1 ELSE 0 END AS is_overdue,
+  insurance_claim_number,
+  created_at,
+  updated_at,
+  dbt_loaded_at,
+  dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_billing
+WHERE billing_id IS NOT NULL
+    )
+;
+[0m21:33:52.214152 [debug] [Thread-1 (]: Began running node model.medical_project.silver_patients
+[0m21:33:52.217723 [info ] [Thread-1 (]: 9 of 17 START sql table model silver.silver_patients ........................... [RUN]
+[0m21:33:52.221019 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_medical_records, now model.medical_project.silver_patients)
+[0m21:33:52.222020 [debug] [Thread-1 (]: Began compiling node model.medical_project.silver_patients
+[0m21:33:52.227558 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.silver_patients"
+[0m21:33:52.229565 [debug] [Thread-1 (]: Began executing node model.medical_project.silver_patients
+[0m21:33:52.235160 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.silver_patients"
+[0m21:33:52.238879 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.silver_patients"
+[0m21:33:52.239880 [debug] [Thread-1 (]: On model.medical_project.silver_patients: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_patients"} */
+create or replace transient table MEDICAL_DB.silver.silver_patients
+    
+
+    
+    as (
+
+SELECT
+  patient_id,
+  TRIM(UPPER(first_name)) AS first_name,
+  TRIM(UPPER(last_name)) AS last_name,
+  TRIM(UPPER(first_name)) || ' ' || TRIM(UPPER(last_name)) AS full_name,
+  date_of_birth,
+  
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ AS age,
+  
+  CASE
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ < 18 THEN 'Minor'
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ BETWEEN 18 AND 39 THEN 'Young Adult'
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ BETWEEN 40 AND 59 THEN 'Middle Age'
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ BETWEEN 60 AND 79 THEN 'Senior'
+    ELSE 'Elderly'
+  END
+ AS age_group,
+  CASE WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ >= 65 THEN 'Senior' ELSE 'Non-Senior' END AS senior_status,
+  UPPER(gender) AS gender,
+  blood_type,
+  CASE 
+    WHEN blood_type IN ('O+','O-') THEN 'Universal Donor'
+    WHEN blood_type IN ('AB+','AB-') THEN 'Universal Recipient'
+    ELSE 'Standard' END AS blood_type_category,
+  phone,
+  LOWER(TRIM(email)) AS email,
+  address,
+  TRIM(UPPER(city)) AS city,
+  UPPER(state) AS state,
+  zip_code,
+  insurance_type,
+  CASE 
+    WHEN insurance_type IN ('Medicare','Medicaid') THEN 'Government'
+    WHEN insurance_type = 'Private' THEN 'Commercial'
+    ELSE 'Other' END AS insurance_category,
+  emergency_contact,
+  created_at,
+  updated_at,
+  dbt_loaded_at,
+  dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_patients
+WHERE patient_id IS NOT NULL
+    )
+;
+[0m21:33:52.305007 [debug] [Thread-2 (]: Snowflake adapter: Snowflake query id: 01bf5a8d-3201-f7f6-0000-00104c8e935d
+[0m21:33:52.306020 [debug] [Thread-2 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+[0m21:33:52.323534 [debug] [Thread-2 (]: Database Error in model silver_doctors (models\silver\silver_doctors.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+  compiled code at target\run\medical_project\models\silver\silver_doctors.sql
+[0m21:33:52.324945 [error] [Thread-2 (]: 7 of 17 ERROR creating sql table model silver.silver_doctors ................... [[31mERROR[0m in 0.17s]
+[0m21:33:52.325953 [debug] [Thread-2 (]: Finished running node model.medical_project.silver_doctors
+[0m21:33:52.325953 [debug] [Thread-2 (]: Began running node model.medical_project.silver_medical_records
+[0m21:33:52.327190 [debug] [Thread-6 (]: Marking all children of 'model.medical_project.silver_doctors' to be skipped because of status 'error'.  Reason: Database Error in model silver_doctors (models\silver\silver_doctors.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+  compiled code at target\run\medical_project\models\silver\silver_doctors.sql.
+[0m21:33:52.328204 [info ] [Thread-2 (]: 10 of 17 START sql table model silver.silver_medical_records ................... [RUN]
+[0m21:33:52.329203 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_doctors, now model.medical_project.silver_medical_records)
+[0m21:33:52.330202 [debug] [Thread-2 (]: Began compiling node model.medical_project.silver_medical_records
+[0m21:33:52.334717 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.silver_medical_records"
+[0m21:33:52.335723 [debug] [Thread-2 (]: Began executing node model.medical_project.silver_medical_records
+[0m21:33:52.338723 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.silver_medical_records"
+[0m21:33:52.340723 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.silver_medical_records"
+[0m21:33:52.342230 [debug] [Thread-2 (]: On model.medical_project.silver_medical_records: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_medical_records"} */
+create or replace transient table MEDICAL_DB.silver.silver_medical_records
+    
+
+    
+    as (
+
+WITH diagnosis_mapping AS (
+  SELECT * FROM MEDICAL_DB.reference.diagnosis_codes
+)
+SELECT
+  mr.record_id,
+  mr.appointment_id,
+  mr.patient_id,
+  TRIM(mr.diagnosis) AS diagnosis,
+  COALESCE(dm.diagnosis_category,'Other') AS diagnosis_category,
+  COALESCE(dm.icd_10_code,'Unknown') AS icd_10_code,
+  TRIM(mr.treatment_plan) AS treatment_plan,
+  CASE 
+    WHEN mr.treatment_plan = 'Medication' THEN 'Pharmacological'
+    WHEN mr.treatment_plan IN ('Surgery','Procedure') THEN 'Surgical'
+    WHEN mr.treatment_plan IN ('Physical Therapy','Counseling') THEN 'Therapeutic'
+    ELSE 'Conservative' END AS treatment_category,
+  mr.prescription,
+  mr.follow_up_required,
+  CASE WHEN mr.follow_up_required = 'Y' THEN 1 ELSE 0 END AS needs_follow_up,
+  mr.severity,
+  CASE 
+    WHEN mr.severity = 'Low' THEN 1
+    WHEN mr.severity = 'Medium' THEN 2
+    WHEN mr.severity = 'High' THEN 3
+    ELSE 0 END AS severity_score,
+  mr.created_at,
+  mr.updated_at,
+  mr.dbt_loaded_at,
+  mr.dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_medical_records mr
+LEFT JOIN diagnosis_mapping dm ON mr.diagnosis = dm.diagnosis_name
+WHERE mr.record_id IS NOT NULL
+    )
+;
+[0m21:33:52.409435 [debug] [Thread-2 (]: Snowflake adapter: Snowflake query id: 01bf5a8d-3201-f7f5-0000-00104c8e8385
+[0m21:33:52.409435 [debug] [Thread-2 (]: Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+[0m21:33:52.413946 [debug] [Thread-2 (]: Database Error in model silver_medical_records (models\silver\silver_medical_records.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+  compiled code at target\run\medical_project\models\silver\silver_medical_records.sql
+[0m21:33:52.414951 [error] [Thread-2 (]: 10 of 17 ERROR creating sql table model silver.silver_medical_records .......... [[31mERROR[0m in 0.09s]
+[0m21:33:52.416244 [debug] [Thread-2 (]: Finished running node model.medical_project.silver_medical_records
+[0m21:33:52.417593 [debug] [Thread-2 (]: Began running node model.medical_project.dim_doctors
+[0m21:33:52.418716 [debug] [Thread-6 (]: Marking all children of 'model.medical_project.silver_medical_records' to be skipped because of status 'error'.  Reason: Database Error in model silver_medical_records (models\silver\silver_medical_records.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+  compiled code at target\run\medical_project\models\silver\silver_medical_records.sql.
+[0m21:33:52.418716 [info ] [Thread-2 (]: 11 of 17 SKIP relation gold.dim_doctors ........................................ [[33mSKIP[0m]
+[0m21:33:52.419721 [debug] [Thread-2 (]: Finished running node model.medical_project.dim_doctors
+[0m21:33:52.777069 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.560 seconds
+[0m21:33:52.779071 [info ] [Thread-3 (]: 8 of 17 OK created sql table model silver.silver_billing ....................... [[32mSUCCESS 1[0m in 0.59s]
+[0m21:33:52.781068 [debug] [Thread-3 (]: Finished running node model.medical_project.silver_billing
+[0m21:33:52.937987 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.697 seconds
+[0m21:33:52.945054 [info ] [Thread-1 (]: 9 of 17 OK created sql table model silver.silver_patients ...................... [[32mSUCCESS 1[0m in 0.72s]
+[0m21:33:52.949345 [debug] [Thread-1 (]: Finished running node model.medical_project.silver_patients
+[0m21:33:52.953132 [debug] [Thread-2 (]: Began running node model.medical_project.dim_patients
+[0m21:33:52.955611 [info ] [Thread-2 (]: 12 of 17 START sql table model gold.dim_patients ............................... [RUN]
+[0m21:33:52.957858 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_medical_records, now model.medical_project.dim_patients)
+[0m21:33:52.958866 [debug] [Thread-2 (]: Began compiling node model.medical_project.dim_patients
+[0m21:33:52.965774 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.dim_patients"
+[0m21:33:52.968305 [debug] [Thread-2 (]: Began executing node model.medical_project.dim_patients
+[0m21:33:52.972001 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.dim_patients"
+[0m21:33:52.973006 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.dim_patients"
+[0m21:33:52.974630 [debug] [Thread-2 (]: On model.medical_project.dim_patients: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.dim_patients"} */
+create or replace transient table MEDICAL_DB.gold.dim_patients
+    
+
+    
+    as (
+
+SELECT
+  patient_id,
+  first_name,
+  last_name,
+  full_name,
+  date_of_birth,
+  age,
+  age_group,
+  senior_status,
+  gender,
+  blood_type,
+  blood_type_category,
+  city,
+  state,
+  insurance_type,
+  insurance_category,
+  emergency_contact,
+  created_at AS patient_since,
+  DATEDIFF('day', created_at, CURRENT_DATE()) AS days_as_patient,
+  CURRENT_TIMESTAMP() AS last_updated
+FROM MEDICAL_DB.silver.silver_patients
+    )
+;
+[0m21:33:53.549013 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.574 seconds
+[0m21:33:53.551095 [info ] [Thread-2 (]: 12 of 17 OK created sql table model gold.dim_patients .......................... [[32mSUCCESS 1[0m in 0.59s]
+[0m21:33:53.552091 [debug] [Thread-2 (]: Finished running node model.medical_project.dim_patients
+[0m21:33:53.553704 [debug] [Thread-1 (]: Began running node model.medical_project.fact_appointments
+[0m21:33:53.553704 [info ] [Thread-1 (]: 13 of 17 SKIP relation gold.fact_appointments .................................. [[33mSKIP[0m]
+[0m21:33:53.554709 [debug] [Thread-1 (]: Finished running node model.medical_project.fact_appointments
+[0m21:33:53.555874 [debug] [Thread-2 (]: Began running node model.medical_project.fact_billing
+[0m21:33:53.555874 [debug] [Thread-3 (]: Began running node model.medical_project.fact_medical_outcomes
+[0m21:33:53.557087 [info ] [Thread-2 (]: 14 of 17 SKIP relation gold.fact_billing ....................................... [[33mSKIP[0m]
+[0m21:33:53.558503 [info ] [Thread-3 (]: 15 of 17 SKIP relation gold.fact_medical_outcomes .............................. [[33mSKIP[0m]
+[0m21:33:53.558503 [debug] [Thread-2 (]: Finished running node model.medical_project.fact_billing
+[0m21:33:53.559951 [debug] [Thread-3 (]: Finished running node model.medical_project.fact_medical_outcomes
+[0m21:33:53.560949 [debug] [Thread-1 (]: Began running node model.medical_project.kpi_dashboard
+[0m21:33:53.561950 [debug] [Thread-2 (]: Began running node model.medical_project.patient_summary
+[0m21:33:53.561950 [info ] [Thread-1 (]: 16 of 17 SKIP relation gold.kpi_dashboard ...................................... [[33mSKIP[0m]
+[0m21:33:53.563017 [info ] [Thread-2 (]: 17 of 17 SKIP relation gold.patient_summary .................................... [[33mSKIP[0m]
+[0m21:33:53.564647 [debug] [Thread-1 (]: Finished running node model.medical_project.kpi_dashboard
+[0m21:33:53.565672 [debug] [Thread-2 (]: Finished running node model.medical_project.patient_summary
+[0m21:33:53.568345 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:33:53.569356 [debug] [MainThread]: Connection 'create_MEDICAL_DB_gold' was left open.
+[0m21:33:53.570372 [debug] [MainThread]: On create_MEDICAL_DB_gold: Close
+[0m21:33:53.852168 [debug] [MainThread]: Connection 'create_MEDICAL_DB_silver' was left open.
+[0m21:33:53.853176 [debug] [MainThread]: On create_MEDICAL_DB_silver: Close
+[0m21:33:53.901969 [debug] [MainThread]: Connection 'create_MEDICAL_DB_bronze' was left open.
+[0m21:33:53.902976 [debug] [MainThread]: On create_MEDICAL_DB_bronze: Close
+[0m21:33:53.950625 [debug] [MainThread]: Connection 'list_MEDICAL_DB_reference' was left open.
+[0m21:33:53.952134 [debug] [MainThread]: On list_MEDICAL_DB_reference: Close
+[0m21:33:54.004731 [debug] [MainThread]: Connection 'list_MEDICAL_DB_snapshots' was left open.
+[0m21:33:54.005758 [debug] [MainThread]: On list_MEDICAL_DB_snapshots: Close
+[0m21:33:54.057587 [debug] [MainThread]: Connection 'list_MEDICAL_DB_bronze' was left open.
+[0m21:33:54.058586 [debug] [MainThread]: On list_MEDICAL_DB_bronze: Close
+[0m21:33:54.110767 [debug] [MainThread]: Connection 'model.medical_project.silver_patients' was left open.
+[0m21:33:54.112283 [debug] [MainThread]: On model.medical_project.silver_patients: Close
+[0m21:33:54.163117 [debug] [MainThread]: Connection 'model.medical_project.dim_patients' was left open.
+[0m21:33:54.165252 [debug] [MainThread]: On model.medical_project.dim_patients: Close
+[0m21:33:54.213186 [debug] [MainThread]: Connection 'model.medical_project.silver_billing' was left open.
+[0m21:33:54.214915 [debug] [MainThread]: On model.medical_project.silver_billing: Close
+[0m21:33:54.280417 [info ] [MainThread]: 
+[0m21:33:54.280417 [info ] [MainThread]: Finished running 17 table models in 0 hours 0 minutes and 10.68 seconds (10.68s).
+[0m21:33:54.285044 [debug] [MainThread]: Command end result
+[0m21:33:54.329470 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\ADMIN\dbt_core\medical_project\target\manifest.json
+[0m21:33:54.335660 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\ADMIN\dbt_core\medical_project\target\semantic_manifest.json
+[0m21:33:54.345699 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\ADMIN\dbt_core\medical_project\target\run_results.json
+[0m21:33:54.347213 [info ] [MainThread]: 
+[0m21:33:54.348223 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m21:33:54.350275 [info ] [MainThread]: 
+[0m21:33:54.350275 [error] [MainThread]:   Database Error in model silver_doctors (models\silver\silver_doctors.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+  compiled code at target\run\medical_project\models\silver\silver_doctors.sql
+[0m21:33:54.351784 [info ] [MainThread]: 
+[0m21:33:54.351784 [error] [MainThread]:   Database Error in model silver_medical_records (models\silver\silver_medical_records.sql)
+  002003 (02000): SQL compilation error:
+  Schema 'MEDICAL_DB.REFERENCE' does not exist or not authorized.
+  compiled code at target\run\medical_project\models\silver\silver_medical_records.sql
+[0m21:33:54.353097 [info ] [MainThread]: 
+[0m21:33:54.354098 [info ] [MainThread]: Done. PASS=9 WARN=0 ERROR=2 SKIP=6 TOTAL=17
+[0m21:33:54.356617 [debug] [MainThread]: Command `dbt run` failed at 21:33:54.355614 after 17.61 seconds
+[0m21:33:54.356617 [debug] [MainThread]: Flushing usage events
+[0m21:36:26.448014 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:36:26.489725 | acdf4f4b-fd8e-49de-af02-99b6e46c4845 ==============================
+[0m21:36:26.489725 [info ] [MainThread]: Running with dbt=1.9.0
+[0m21:36:26.492246 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\ADMIN\\dbt_core\\medical_project\\logs', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m21:36:27.321326 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m21:36:27.711911 [debug] [MainThread]: checksum: c99e828bba267739642b5a3ce85f17518764ea526e0e6c4fdc649171c1a66bff, vars: {}, profile: , target: , version: 1.9.0
+[0m21:36:28.003683 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:36:28.004694 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:36:28.221622 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\ADMIN\dbt_core\medical_project\target\manifest.json
+[0m21:36:28.240783 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\ADMIN\dbt_core\medical_project\target\semantic_manifest.json
+[0m21:36:28.268425 [info ] [MainThread]: Found 17 models, 2 snapshots, 24 data tests, 3 seeds, 5 sources, 483 macros
+[0m21:36:28.272918 [info ] [MainThread]: 
+[0m21:36:28.272918 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m21:36:28.274424 [info ] [MainThread]: 
+[0m21:36:28.275438 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:36:28.281535 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB'
+[0m21:36:28.396273 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB"
+[0m21:36:28.397273 [debug] [ThreadPool]: On list_MEDICAL_DB: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB"} */
+show terse schemas in database MEDICAL_DB
+    limit 10000
+[0m21:36:28.397273 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:29.191554 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.794 seconds
+[0m21:36:29.193561 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB, now create_MEDICAL_DB_reference)
+[0m21:36:29.194559 [debug] [ThreadPool]: Creating schema "database: "MEDICAL_DB"
+schema: "reference"
+"
+[0m21:36:29.200219 [debug] [ThreadPool]: Using snowflake connection "create_MEDICAL_DB_reference"
+[0m21:36:29.200219 [debug] [ThreadPool]: On create_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "create_MEDICAL_DB_reference"} */
+create schema if not exists MEDICAL_DB.reference
+[0m21:36:29.271407 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.070 seconds
+[0m21:36:29.276566 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_snapshots'
+[0m21:36:29.278137 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_gold'
+[0m21:36:29.294503 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_snapshots"
+[0m21:36:29.294503 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_bronze'
+[0m21:36:29.297925 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:36:29.297925 [debug] [ThreadPool]: On list_MEDICAL_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_snapshots"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:29.302475 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:36:29.303472 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:29.303472 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:29.304474 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:29.304474 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:29.307674 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:29.713892 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.410 seconds
+[0m21:36:29.718665 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_snapshots"
+[0m21:36:29.720663 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.416 seconds
+[0m21:36:29.721667 [debug] [ThreadPool]: On list_MEDICAL_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_snapshots"} */
+show objects in MEDICAL_DB.snapshots
+    limit 10000
+    
+;
+[0m21:36:29.723196 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.415 seconds
+[0m21:36:29.724714 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:36:29.728393 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:36:29.730322 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+show objects in MEDICAL_DB.gold
+    limit 10000
+    
+;
+[0m21:36:29.731833 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+show objects in MEDICAL_DB.bronze
+    limit 10000
+    
+;
+[0m21:36:29.799301 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf5a90-3201-f7f5-0000-00104c8e83e1
+[0m21:36:29.800304 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+[0m21:36:29.801812 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_relations_without_caching
+[0m21:36:29.801812 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m21:36:29.802823 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB_snapshots, now list_MEDICAL_DB_reference)
+[0m21:36:29.807847 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:36:29.809849 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.078 seconds
+[0m21:36:29.811849 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.078 seconds
+[0m21:36:29.811849 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:29.814324 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:36:29.816800 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:36:29.819039 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:29.820051 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:29.871746 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.047 seconds
+[0m21:36:29.872251 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.051 seconds
+[0m21:36:29.874771 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB_bronze, now list_MEDICAL_DB_silver)
+[0m21:36:29.877779 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.060 seconds
+[0m21:36:29.882854 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:36:29.885406 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:36:29.885406 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:29.886402 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+show objects in MEDICAL_DB.reference
+    limit 10000
+    
+;
+[0m21:36:29.933526 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.045 seconds
+[0m21:36:29.935539 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:36:29.936541 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:29.941679 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.054 seconds
+[0m21:36:29.943691 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:36:29.943691 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+show objects in MEDICAL_DB.silver
+    limit 10000
+    
+;
+[0m21:36:29.982878 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.046 seconds
+[0m21:36:30.015953 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.071 seconds
+[0m21:36:30.020048 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:36:30.020048 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:30.073509 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.052 seconds
+[0m21:36:30.081428 [debug] [Thread-1 (]: Began running node seed.medical_project.diagnosis_codes
+[0m21:36:30.082697 [debug] [Thread-2 (]: Began running node seed.medical_project.insurance_types
+[0m21:36:30.082697 [debug] [Thread-3 (]: Began running node seed.medical_project.medical_specialties
+[0m21:36:30.084280 [info ] [Thread-1 (]: 1 of 3 START seed file reference.diagnosis_codes ............................... [RUN]
+[0m21:36:30.086638 [info ] [Thread-2 (]: 2 of 3 START seed file reference.insurance_types ............................... [RUN]
+[0m21:36:30.087711 [info ] [Thread-3 (]: 3 of 3 START seed file reference.medical_specialties ........................... [RUN]
+[0m21:36:30.089723 [debug] [Thread-1 (]: Acquiring new snowflake connection 'seed.medical_project.diagnosis_codes'
+[0m21:36:30.090723 [debug] [Thread-2 (]: Acquiring new snowflake connection 'seed.medical_project.insurance_types'
+[0m21:36:30.092227 [debug] [Thread-3 (]: Acquiring new snowflake connection 'seed.medical_project.medical_specialties'
+[0m21:36:30.092227 [debug] [Thread-1 (]: Began compiling node seed.medical_project.diagnosis_codes
+[0m21:36:30.093735 [debug] [Thread-2 (]: Began compiling node seed.medical_project.insurance_types
+[0m21:36:30.093735 [debug] [Thread-3 (]: Began compiling node seed.medical_project.medical_specialties
+[0m21:36:30.094749 [debug] [Thread-1 (]: Began executing node seed.medical_project.diagnosis_codes
+[0m21:36:30.095757 [debug] [Thread-2 (]: Began executing node seed.medical_project.insurance_types
+[0m21:36:30.096766 [debug] [Thread-3 (]: Began executing node seed.medical_project.medical_specialties
+[0m21:36:30.145582 [debug] [Thread-1 (]: Using snowflake connection "seed.medical_project.diagnosis_codes"
+[0m21:36:30.146593 [debug] [Thread-2 (]: Using snowflake connection "seed.medical_project.insurance_types"
+[0m21:36:30.147587 [debug] [Thread-1 (]: On seed.medical_project.diagnosis_codes: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.diagnosis_codes"} */
+create table MEDICAL_DB.reference.diagnosis_codes (diagnosis_name text,diagnosis_category text,icd_10_code text)
+[0m21:36:30.148827 [debug] [Thread-3 (]: Using snowflake connection "seed.medical_project.medical_specialties"
+[0m21:36:30.149840 [debug] [Thread-2 (]: On seed.medical_project.insurance_types: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.insurance_types"} */
+create table MEDICAL_DB.reference.insurance_types (insurance_type text,category text)
+[0m21:36:30.149840 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:36:30.150841 [debug] [Thread-3 (]: On seed.medical_project.medical_specialties: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.medical_specialties"} */
+create table MEDICAL_DB.reference.medical_specialties (specialty_name text,specialty_category text)
+[0m21:36:30.151857 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:36:30.155306 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m21:36:30.439452 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.289 seconds
+[0m21:36:30.453531 [debug] [Thread-1 (]: Using snowflake connection "seed.medical_project.diagnosis_codes"
+[0m21:36:30.454557 [debug] [Thread-1 (]: On seed.medical_project.diagnosis_codes: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.diagnosis_codes"} */
+BEGIN
+[0m21:36:30.516308 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.061 seconds
+[0m21:36:30.517309 [debug] [Thread-1 (]: Using snowflake connection "seed.medical_project.diagnosis_codes"
+[0m21:36:30.518306 [debug] [Thread-1 (]: On seed.medical_project.diagnosis_codes: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.diagnosis_codes"} */
+insert into MEDICAL_DB.reference.diagnosis_codes (diagnosis_name, diagnosis_category, icd_10_code) values
+            (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)...
+[0m21:36:30.704978 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.550 seconds
+[0m21:36:30.708554 [debug] [Thread-3 (]: Using snowflake connection "seed.medical_project.medical_specialties"
+[0m21:36:30.709570 [debug] [Thread-3 (]: On seed.medical_project.medical_specialties: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.medical_specialties"} */
+BEGIN
+[0m21:36:30.791649 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.082 seconds
+[0m21:36:30.794615 [debug] [Thread-3 (]: Using snowflake connection "seed.medical_project.medical_specialties"
+[0m21:36:30.795686 [debug] [Thread-3 (]: On seed.medical_project.medical_specialties: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.medical_specialties"} */
+insert into MEDICAL_DB.reference.medical_specialties (specialty_name, specialty_category) values
+            (%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s)...
+[0m21:36:30.818199 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.666 seconds
+[0m21:36:30.820193 [debug] [Thread-2 (]: Using snowflake connection "seed.medical_project.insurance_types"
+[0m21:36:30.821704 [debug] [Thread-2 (]: On seed.medical_project.insurance_types: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.insurance_types"} */
+BEGIN
+[0m21:36:30.833586 [debug] [Thread-1 (]: SQL status: SUCCESS 5 in 0.315 seconds
+[0m21:36:30.834596 [debug] [Thread-1 (]: Using snowflake connection "seed.medical_project.diagnosis_codes"
+[0m21:36:30.835616 [debug] [Thread-1 (]: On seed.medical_project.diagnosis_codes: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.diagnosis_codes"} */
+COMMIT
+[0m21:36:30.886682 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.065 seconds
+[0m21:36:30.888144 [debug] [Thread-2 (]: Using snowflake connection "seed.medical_project.insurance_types"
+[0m21:36:30.889138 [debug] [Thread-2 (]: On seed.medical_project.insurance_types: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.insurance_types"} */
+insert into MEDICAL_DB.reference.insurance_types (insurance_type, category) values
+            (%s,%s),(%s,%s),(%s,%s),(%s,%s)...
+[0m21:36:30.978055 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.142 seconds
+[0m21:36:30.990018 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.medical_project.diagnosis_codes"
+[0m21:36:31.023417 [info ] [Thread-1 (]: 1 of 3 OK loaded seed file reference.diagnosis_codes ........................... [[32mINSERT 5[0m in 0.93s]
+[0m21:36:31.024416 [debug] [Thread-1 (]: Finished running node seed.medical_project.diagnosis_codes
+[0m21:36:31.075296 [debug] [Thread-3 (]: SQL status: SUCCESS 7 in 0.278 seconds
+[0m21:36:31.075296 [debug] [Thread-3 (]: Using snowflake connection "seed.medical_project.medical_specialties"
+[0m21:36:31.076805 [debug] [Thread-3 (]: On seed.medical_project.medical_specialties: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.medical_specialties"} */
+COMMIT
+[0m21:36:31.162318 [debug] [Thread-2 (]: SQL status: SUCCESS 4 in 0.273 seconds
+[0m21:36:31.165357 [debug] [Thread-2 (]: Using snowflake connection "seed.medical_project.insurance_types"
+[0m21:36:31.167380 [debug] [Thread-2 (]: On seed.medical_project.insurance_types: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "seed.medical_project.insurance_types"} */
+COMMIT
+[0m21:36:31.255583 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.178 seconds
+[0m21:36:31.258117 [debug] [Thread-3 (]: Writing runtime SQL for node "seed.medical_project.medical_specialties"
+[0m21:36:31.263656 [info ] [Thread-3 (]: 3 of 3 OK loaded seed file reference.medical_specialties ....................... [[32mINSERT 7[0m in 1.17s]
+[0m21:36:31.266191 [debug] [Thread-3 (]: Finished running node seed.medical_project.medical_specialties
+[0m21:36:31.364513 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.196 seconds
+[0m21:36:31.365525 [debug] [Thread-2 (]: Writing runtime SQL for node "seed.medical_project.insurance_types"
+[0m21:36:31.371555 [info ] [Thread-2 (]: 2 of 3 OK loaded seed file reference.insurance_types ........................... [[32mINSERT 4[0m in 1.28s]
+[0m21:36:31.373885 [debug] [Thread-2 (]: Finished running node seed.medical_project.insurance_types
+[0m21:36:31.376881 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:36:31.378338 [debug] [MainThread]: Connection 'create_MEDICAL_DB_reference' was left open.
+[0m21:36:31.378338 [debug] [MainThread]: On create_MEDICAL_DB_reference: Close
+[0m21:36:31.434459 [debug] [MainThread]: Connection 'list_MEDICAL_DB_reference' was left open.
+[0m21:36:31.435469 [debug] [MainThread]: On list_MEDICAL_DB_reference: Close
+[0m21:36:31.481976 [debug] [MainThread]: Connection 'list_MEDICAL_DB_gold' was left open.
+[0m21:36:31.482990 [debug] [MainThread]: On list_MEDICAL_DB_gold: Close
+[0m21:36:31.534327 [debug] [MainThread]: Connection 'list_MEDICAL_DB_silver' was left open.
+[0m21:36:31.535591 [debug] [MainThread]: On list_MEDICAL_DB_silver: Close
+[0m21:36:31.587036 [debug] [MainThread]: Connection 'seed.medical_project.diagnosis_codes' was left open.
+[0m21:36:31.588102 [debug] [MainThread]: On seed.medical_project.diagnosis_codes: Close
+[0m21:36:31.636694 [debug] [MainThread]: Connection 'seed.medical_project.insurance_types' was left open.
+[0m21:36:31.637720 [debug] [MainThread]: On seed.medical_project.insurance_types: Close
+[0m21:36:31.685992 [debug] [MainThread]: Connection 'seed.medical_project.medical_specialties' was left open.
+[0m21:36:31.686992 [debug] [MainThread]: On seed.medical_project.medical_specialties: Close
+[0m21:36:31.736967 [info ] [MainThread]: 
+[0m21:36:31.738140 [info ] [MainThread]: Finished running 3 seeds in 0 hours 0 minutes and 3.46 seconds (3.46s).
+[0m21:36:31.740162 [debug] [MainThread]: Command end result
+[0m21:36:31.787317 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\ADMIN\dbt_core\medical_project\target\manifest.json
+[0m21:36:31.791513 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\ADMIN\dbt_core\medical_project\target\semantic_manifest.json
+[0m21:36:31.798539 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\ADMIN\dbt_core\medical_project\target\run_results.json
+[0m21:36:31.799540 [info ] [MainThread]: 
+[0m21:36:31.800539 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:36:31.802047 [info ] [MainThread]: 
+[0m21:36:31.802047 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m21:36:31.804570 [debug] [MainThread]: Command `dbt seed` succeeded at 21:36:31.804570 after 5.43 seconds
+[0m21:36:31.804570 [debug] [MainThread]: Flushing usage events
+[0m21:36:36.871226 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:36:36.901560 | 8ddbe747-2519-4551-8319-62c228b382f1 ==============================
+[0m21:36:36.901560 [info ] [MainThread]: Running with dbt=1.9.0
+[0m21:36:36.902568 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'log_path': 'C:\\Users\\ADMIN\\dbt_core\\medical_project\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m21:36:37.460277 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m21:36:37.906482 [debug] [MainThread]: checksum: c99e828bba267739642b5a3ce85f17518764ea526e0e6c4fdc649171c1a66bff, vars: {}, profile: , target: , version: 1.9.0
+[0m21:36:38.207491 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:36:38.208488 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:36:38.457537 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\ADMIN\dbt_core\medical_project\target\manifest.json
+[0m21:36:38.476701 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\ADMIN\dbt_core\medical_project\target\semantic_manifest.json
+[0m21:36:38.506317 [info ] [MainThread]: Found 17 models, 2 snapshots, 24 data tests, 3 seeds, 5 sources, 483 macros
+[0m21:36:38.511318 [info ] [MainThread]: 
+[0m21:36:38.511318 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m21:36:38.512827 [info ] [MainThread]: 
+[0m21:36:38.514342 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:36:38.523891 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB'
+[0m21:36:38.541621 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB'
+[0m21:36:38.549503 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB'
+[0m21:36:38.645575 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB"
+[0m21:36:38.646562 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB"
+[0m21:36:38.646562 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB"
+[0m21:36:38.647932 [debug] [ThreadPool]: On list_MEDICAL_DB: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB"} */
+show terse schemas in database MEDICAL_DB
+    limit 10000
+[0m21:36:38.647932 [debug] [ThreadPool]: On list_MEDICAL_DB: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB"} */
+show terse schemas in database MEDICAL_DB
+    limit 10000
+[0m21:36:38.648931 [debug] [ThreadPool]: On list_MEDICAL_DB: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB"} */
+show terse schemas in database MEDICAL_DB
+    limit 10000
+[0m21:36:38.649933 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:38.649933 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:38.651444 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:38.939221 [debug] [ThreadPool]: SQL status: SUCCESS 8 in 0.289 seconds
+[0m21:36:38.960423 [debug] [ThreadPool]: SQL status: SUCCESS 8 in 0.309 seconds
+[0m21:36:39.096104 [debug] [ThreadPool]: SQL status: SUCCESS 8 in 0.446 seconds
+[0m21:36:39.102121 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_silver'
+[0m21:36:39.103633 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_bronze'
+[0m21:36:39.118364 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:36:39.119364 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MEDICAL_DB_reference'
+[0m21:36:39.122776 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:36:39.122776 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:39.126317 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:36:39.126317 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:39.127433 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:39.128430 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:39.128430 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:39.131412 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:36:39.314736 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.183 seconds
+[0m21:36:39.322727 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:36:39.324243 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+show objects in MEDICAL_DB.reference
+    limit 10000
+    
+;
+[0m21:36:39.387716 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.063 seconds
+[0m21:36:39.390717 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_reference"
+[0m21:36:39.390717 [debug] [ThreadPool]: On list_MEDICAL_DB_reference: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_reference"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:39.449917 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.058 seconds
+[0m21:36:39.452448 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB_reference, now list_MEDICAL_DB_snapshots)
+[0m21:36:39.456452 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_snapshots"
+[0m21:36:39.456452 [debug] [ThreadPool]: On list_MEDICAL_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_snapshots"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:39.498665 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.042 seconds
+[0m21:36:39.501524 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_snapshots"
+[0m21:36:39.502560 [debug] [ThreadPool]: On list_MEDICAL_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_snapshots"} */
+show objects in MEDICAL_DB.snapshots
+    limit 10000
+    
+;
+[0m21:36:39.560047 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf5a90-3201-f7f5-0000-00104c8e840d
+[0m21:36:39.561556 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+[0m21:36:39.562565 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_relations_without_caching
+[0m21:36:39.562565 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m21:36:39.564571 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MEDICAL_DB_snapshots, now list_MEDICAL_DB_gold)
+[0m21:36:39.568091 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:36:39.570091 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.441 seconds
+[0m21:36:39.570091 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.443 seconds
+[0m21:36:39.570091 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m21:36:39.572611 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:36:39.574611 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:36:39.576608 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+show objects in MEDICAL_DB.bronze
+    limit 10000
+    
+;
+[0m21:36:39.577609 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+show objects in MEDICAL_DB.silver
+    limit 10000
+    
+;
+[0m21:36:39.618879 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.043 seconds
+[0m21:36:39.621388 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:36:39.622397 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+show objects in MEDICAL_DB.gold
+    limit 10000
+    
+;
+[0m21:36:39.632757 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.053 seconds
+[0m21:36:39.635296 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_silver"
+[0m21:36:39.636278 [debug] [ThreadPool]: On list_MEDICAL_DB_silver: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_silver"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:39.638282 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.059 seconds
+[0m21:36:39.641786 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_bronze"
+[0m21:36:39.642800 [debug] [ThreadPool]: On list_MEDICAL_DB_bronze: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_bronze"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:39.676361 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.053 seconds
+[0m21:36:39.678591 [debug] [ThreadPool]: Using snowflake connection "list_MEDICAL_DB_gold"
+[0m21:36:39.679588 [debug] [ThreadPool]: On list_MEDICAL_DB_gold: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "connection_name": "list_MEDICAL_DB_gold"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m21:36:39.685451 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.042 seconds
+[0m21:36:39.690562 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.053 seconds
+[0m21:36:39.723613 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.045 seconds
+[0m21:36:39.731375 [debug] [Thread-1 (]: Began running node model.medical_project.bronze_appointments
+[0m21:36:39.732616 [debug] [Thread-2 (]: Began running node model.medical_project.bronze_billing
+[0m21:36:39.732616 [debug] [Thread-3 (]: Began running node model.medical_project.bronze_doctors
+[0m21:36:39.734278 [info ] [Thread-1 (]: 1 of 17 START sql table model bronze.bronze_appointments ....................... [RUN]
+[0m21:36:39.735560 [info ] [Thread-2 (]: 2 of 17 START sql table model bronze.bronze_billing ............................ [RUN]
+[0m21:36:39.736566 [info ] [Thread-3 (]: 3 of 17 START sql table model bronze.bronze_doctors ............................ [RUN]
+[0m21:36:39.737637 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.medical_project.bronze_appointments'
+[0m21:36:39.738646 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.medical_project.bronze_billing'
+[0m21:36:39.739639 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.medical_project.bronze_doctors'
+[0m21:36:39.740657 [debug] [Thread-1 (]: Began compiling node model.medical_project.bronze_appointments
+[0m21:36:39.741679 [debug] [Thread-2 (]: Began compiling node model.medical_project.bronze_billing
+[0m21:36:39.742687 [debug] [Thread-3 (]: Began compiling node model.medical_project.bronze_doctors
+[0m21:36:39.755431 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.bronze_appointments"
+[0m21:36:39.762688 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.bronze_billing"
+[0m21:36:39.766244 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.bronze_doctors"
+[0m21:36:39.768353 [debug] [Thread-1 (]: Began executing node model.medical_project.bronze_appointments
+[0m21:36:39.774415 [debug] [Thread-3 (]: Began executing node model.medical_project.bronze_doctors
+[0m21:36:39.775418 [debug] [Thread-2 (]: Began executing node model.medical_project.bronze_billing
+[0m21:36:39.808931 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.bronze_appointments"
+[0m21:36:39.813659 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.bronze_doctors"
+[0m21:36:39.816688 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.bronze_billing"
+[0m21:36:39.818891 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.bronze_appointments"
+[0m21:36:39.819891 [debug] [Thread-1 (]: On model.medical_project.bronze_appointments: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_appointments"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_appointments
+    
+
+    
+    as (
+
+SELECT
+  appointment_id,
+  patient_id,
+  doctor_id,
+  appointment_date,
+  appointment_type,
+  status,
+  duration_minutes,
+  notes,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '8ddbe747-2519-4551-8319-62c228b382f1' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.appointments
+WHERE appointment_id IS NOT NULL
+    )
+;
+[0m21:36:39.821401 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.bronze_doctors"
+[0m21:36:39.822503 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:36:39.824425 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.bronze_billing"
+[0m21:36:39.824425 [debug] [Thread-3 (]: On model.medical_project.bronze_doctors: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_doctors"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_doctors
+    
+
+    
+    as (
+
+SELECT
+  doctor_id,
+  doctor_name,
+  specialty,
+  department_id,
+  phone,
+  email,
+  license_number,
+  years_experience,
+  is_active,
+  hired_date,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '8ddbe747-2519-4551-8319-62c228b382f1' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.doctors
+WHERE doctor_id IS NOT NULL
+    )
+;
+[0m21:36:39.827826 [debug] [Thread-2 (]: On model.medical_project.bronze_billing: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_billing"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_billing
+    
+
+    
+    as (
+
+SELECT
+  billing_id,
+  appointment_id,
+  patient_id,
+  total_amount,
+  insurance_paid,
+  patient_paid,
+  billing_date,
+  payment_status,
+  insurance_claim_number,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '8ddbe747-2519-4551-8319-62c228b382f1' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.billing
+WHERE billing_id IS NOT NULL
+    )
+;
+[0m21:36:39.828823 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m21:36:39.830184 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m21:36:40.507254 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.677 seconds
+[0m21:36:40.544678 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.723 seconds
+[0m21:36:40.547719 [info ] [Thread-2 (]: 2 of 17 OK created sql table model bronze.bronze_billing ....................... [[32mSUCCESS 1[0m in 0.81s]
+[0m21:36:40.549720 [debug] [Thread-2 (]: Finished running node model.medical_project.bronze_billing
+[0m21:36:40.548721 [info ] [Thread-1 (]: 1 of 17 OK created sql table model bronze.bronze_appointments .................. [[32mSUCCESS 1[0m in 0.81s]
+[0m21:36:40.549720 [debug] [Thread-2 (]: Began running node model.medical_project.bronze_medical_records
+[0m21:36:40.551177 [debug] [Thread-1 (]: Finished running node model.medical_project.bronze_appointments
+[0m21:36:40.551837 [info ] [Thread-2 (]: 4 of 17 START sql table model bronze.bronze_medical_records .................... [RUN]
+[0m21:36:40.552231 [debug] [Thread-1 (]: Began running node model.medical_project.bronze_patients
+[0m21:36:40.553738 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_billing, now model.medical_project.bronze_medical_records)
+[0m21:36:40.554765 [info ] [Thread-1 (]: 5 of 17 START sql table model bronze.bronze_patients ........................... [RUN]
+[0m21:36:40.555778 [debug] [Thread-2 (]: Began compiling node model.medical_project.bronze_medical_records
+[0m21:36:40.556924 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_appointments, now model.medical_project.bronze_patients)
+[0m21:36:40.561657 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.bronze_medical_records"
+[0m21:36:40.562170 [debug] [Thread-1 (]: Began compiling node model.medical_project.bronze_patients
+[0m21:36:40.568987 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.bronze_patients"
+[0m21:36:40.569995 [debug] [Thread-2 (]: Began executing node model.medical_project.bronze_medical_records
+[0m21:36:40.574620 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.bronze_medical_records"
+[0m21:36:40.575640 [debug] [Thread-1 (]: Began executing node model.medical_project.bronze_patients
+[0m21:36:40.580698 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.bronze_patients"
+[0m21:36:40.582211 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.bronze_medical_records"
+[0m21:36:40.582211 [debug] [Thread-2 (]: On model.medical_project.bronze_medical_records: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_medical_records"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_medical_records
+    
+
+    
+    as (
+
+SELECT
+  record_id,
+  appointment_id,
+  patient_id,
+  diagnosis,
+  treatment_plan,
+  prescription,
+  follow_up_required,
+  severity,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '8ddbe747-2519-4551-8319-62c228b382f1' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.medical_records
+WHERE record_id IS NOT NULL
+    )
+;
+[0m21:36:40.583720 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.bronze_patients"
+[0m21:36:40.586336 [debug] [Thread-1 (]: On model.medical_project.bronze_patients: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.bronze_patients"} */
+create or replace transient table MEDICAL_DB.bronze.bronze_patients
+    
+
+    
+    as (
+
+SELECT
+  patient_id,
+  first_name,
+  last_name,
+  date_of_birth,
+  gender,
+  blood_type,
+  phone,
+  email,
+  address,
+  city,
+  state,
+  zip_code,
+  insurance_type,
+  emergency_contact,
+  created_at,
+  created_at AS updated_at,
+  CURRENT_TIMESTAMP() AS dbt_loaded_at,
+  '8ddbe747-2519-4551-8319-62c228b382f1' AS dbt_batch_id
+FROM MEDICAL_DB.RAW.patients
+WHERE patient_id IS NOT NULL
+    )
+;
+[0m21:36:40.646599 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.817 seconds
+[0m21:36:40.650222 [info ] [Thread-3 (]: 3 of 17 OK created sql table model bronze.bronze_doctors ....................... [[32mSUCCESS 1[0m in 0.91s]
+[0m21:36:40.651736 [debug] [Thread-3 (]: Finished running node model.medical_project.bronze_doctors
+[0m21:36:40.653755 [debug] [Thread-3 (]: Began running node model.medical_project.silver_billing
+[0m21:36:40.654749 [info ] [Thread-3 (]: 6 of 17 START sql table model silver.silver_billing ............................ [RUN]
+[0m21:36:40.655746 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_doctors, now model.medical_project.silver_billing)
+[0m21:36:40.656745 [debug] [Thread-3 (]: Began compiling node model.medical_project.silver_billing
+[0m21:36:40.661858 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.silver_billing"
+[0m21:36:40.664272 [debug] [Thread-3 (]: Began executing node model.medical_project.silver_billing
+[0m21:36:40.668347 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.silver_billing"
+[0m21:36:40.671857 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.silver_billing"
+[0m21:36:40.672864 [debug] [Thread-3 (]: On model.medical_project.silver_billing: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_billing"} */
+create or replace transient table MEDICAL_DB.silver.silver_billing
+    
+
+    
+    as (
+
+SELECT
+  billing_id,
+  appointment_id,
+  patient_id,
+  total_amount,
+  insurance_paid,
+  patient_paid,
+  ROUND((insurance_paid / NULLIF(total_amount, 0)) * 100, 2) AS insurance_coverage_percentage,
+  CASE 
+    WHEN total_amount >= 1000 THEN 'High Value'
+    WHEN total_amount >= 500 THEN 'Medium Value'
+    ELSE 'Low Value' END AS revenue_tier,
+  CASE 
+    WHEN (insurance_paid / NULLIF(total_amount, 0)) >= 0.9 THEN 'Excellent Coverage'
+    WHEN (insurance_paid / NULLIF(total_amount, 0)) >= 0.7 THEN 'Good Coverage'
+    WHEN (insurance_paid / NULLIF(total_amount, 0)) >= 0.5 THEN 'Fair Coverage'
+    ELSE 'Poor Coverage' END AS coverage_quality,
+  billing_date,
+  DATEDIFF('day', billing_date, CURRENT_DATE()) AS days_since_billing,
+  payment_status,
+  CASE 
+    WHEN payment_status = 'Paid' THEN 'Collected'
+    WHEN payment_status = 'Pending' THEN 'Outstanding'
+    WHEN payment_status = 'Denied' THEN 'Collection'
+    ELSE 'Review' END AS collection_status,
+  CASE WHEN payment_status != 'Paid' AND DATEDIFF('day', billing_date, CURRENT_DATE()) > 30 THEN 1 ELSE 0 END AS is_overdue,
+  insurance_claim_number,
+  created_at,
+  updated_at,
+  dbt_loaded_at,
+  dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_billing
+WHERE billing_id IS NOT NULL
+    )
+;
+[0m21:36:41.070329 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.483 seconds
+[0m21:36:41.075383 [info ] [Thread-1 (]: 5 of 17 OK created sql table model bronze.bronze_patients ...................... [[32mSUCCESS 1[0m in 0.52s]
+[0m21:36:41.077897 [debug] [Thread-1 (]: Finished running node model.medical_project.bronze_patients
+[0m21:36:41.079275 [debug] [Thread-1 (]: Began running node model.medical_project.silver_appointments
+[0m21:36:41.080375 [info ] [Thread-1 (]: 7 of 17 START sql table model silver.silver_appointments ....................... [RUN]
+[0m21:36:41.081882 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_patients, now model.medical_project.silver_appointments)
+[0m21:36:41.082893 [debug] [Thread-1 (]: Began compiling node model.medical_project.silver_appointments
+[0m21:36:41.087435 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.silver_appointments"
+[0m21:36:41.088435 [debug] [Thread-1 (]: Began executing node model.medical_project.silver_appointments
+[0m21:36:41.092947 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.silver_appointments"
+[0m21:36:41.096470 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.silver_appointments"
+[0m21:36:41.096470 [debug] [Thread-1 (]: On model.medical_project.silver_appointments: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_appointments"} */
+create or replace transient table MEDICAL_DB.silver.silver_appointments
+    
+
+    
+    as (
+
+SELECT
+  appointment_id,
+  patient_id,
+  doctor_id,
+  appointment_date,
+  DATE(appointment_date) AS appointment_date_only,
+  TIME(appointment_date) AS appointment_time,
+  EXTRACT(HOUR FROM appointment_date) AS appointment_hour,
+  DAYNAME(appointment_date) AS day_of_week,
+  CASE WHEN DAYNAME(appointment_date) IN ('Saturday','Sunday') THEN 'Weekend' ELSE 'Weekday' END AS day_type,
+  CASE 
+    WHEN EXTRACT(HOUR FROM appointment_date) BETWEEN 6 AND 11 THEN 'Morning'
+    WHEN EXTRACT(HOUR FROM appointment_date) BETWEEN 12 AND 17 THEN 'Afternoon'
+    WHEN EXTRACT(HOUR FROM appointment_date) BETWEEN 18 AND 21 THEN 'Evening'
+    ELSE 'After Hours' END AS time_slot,
+  appointment_type,
+  status,
+  CASE WHEN status = 'Completed' THEN 1 ELSE 0 END AS is_completed,
+  CASE WHEN status = 'No-Show' THEN 1 ELSE 0 END AS is_no_show,
+  CASE WHEN status = 'Cancelled' THEN 1 ELSE 0 END AS is_cancelled,
+  duration_minutes,
+  CASE 
+    WHEN duration_minutes <= 15 THEN 'Short'
+    WHEN duration_minutes <= 45 THEN 'Standard'
+    ELSE 'Extended' END AS duration_category,
+  notes,
+  created_at,
+  updated_at,
+  dbt_loaded_at,
+  dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_appointments
+WHERE appointment_id IS NOT NULL
+    )
+;
+[0m21:36:41.110399 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.526 seconds
+[0m21:36:41.113936 [info ] [Thread-2 (]: 4 of 17 OK created sql table model bronze.bronze_medical_records ............... [[32mSUCCESS 1[0m in 0.56s]
+[0m21:36:41.114440 [debug] [Thread-2 (]: Finished running node model.medical_project.bronze_medical_records
+[0m21:36:41.115951 [debug] [Thread-2 (]: Began running node model.medical_project.silver_doctors
+[0m21:36:41.116973 [info ] [Thread-2 (]: 8 of 17 START sql table model silver.silver_doctors ............................ [RUN]
+[0m21:36:41.117485 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.bronze_medical_records, now model.medical_project.silver_doctors)
+[0m21:36:41.117485 [debug] [Thread-2 (]: Began compiling node model.medical_project.silver_doctors
+[0m21:36:41.122517 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.silver_doctors"
+[0m21:36:41.124536 [debug] [Thread-2 (]: Began executing node model.medical_project.silver_doctors
+[0m21:36:41.129084 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.silver_doctors"
+[0m21:36:41.131599 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.silver_doctors"
+[0m21:36:41.131599 [debug] [Thread-2 (]: On model.medical_project.silver_doctors: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_doctors"} */
+create or replace transient table MEDICAL_DB.silver.silver_doctors
+    
+
+    
+    as (
+
+WITH specialty_mapping AS (
+  SELECT * FROM MEDICAL_DB.reference.medical_specialties
+)
+SELECT
+  d.doctor_id,
+  TRIM(d.doctor_name) AS doctor_name,
+  TRIM(d.specialty) AS specialty,
+  COALESCE(sm.specialty_category,'Other') AS specialty_category,
+  d.department_id,
+  d.phone,
+  LOWER(TRIM(d.email)) AS email,
+  d.license_number,
+  d.years_experience,
+  CASE 
+    WHEN d.years_experience < 5 THEN 'Junior'
+    WHEN d.years_experience BETWEEN 5 AND 15 THEN 'Mid-Level'
+    WHEN d.years_experience BETWEEN 16 AND 25 THEN 'Senior'
+    ELSE 'Expert' END AS experience_level,
+  CASE 
+    WHEN d.specialty IN ('Emergency Medicine','Surgery') THEN 'Critical Care'
+    WHEN d.specialty IN ('Cardiology','Neurology','Oncology') THEN 'Specialty Care'
+    WHEN d.specialty IN ('Internal Medicine','Pediatrics') THEN 'Primary Care'
+    ELSE 'Other Care' END AS care_category,
+  d.is_active,
+  CASE WHEN d.is_active = 'Y' THEN TRUE ELSE FALSE END AS is_active_flag,
+  d.hired_date,
+  DATEDIFF('year', d.hired_date, CURRENT_DATE()) AS tenure_years,
+  d.dbt_loaded_at,
+  d.dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_doctors d
+LEFT JOIN specialty_mapping sm ON d.specialty = sm.specialty_name
+WHERE d.doctor_id IS NOT NULL
+    )
+;
+[0m21:36:41.209669 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.536 seconds
+[0m21:36:41.213622 [info ] [Thread-3 (]: 6 of 17 OK created sql table model silver.silver_billing ....................... [[32mSUCCESS 1[0m in 0.56s]
+[0m21:36:41.214635 [debug] [Thread-3 (]: Finished running node model.medical_project.silver_billing
+[0m21:36:41.215649 [debug] [Thread-3 (]: Began running node model.medical_project.silver_patients
+[0m21:36:41.216559 [info ] [Thread-3 (]: 9 of 17 START sql table model silver.silver_patients ........................... [RUN]
+[0m21:36:41.217761 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_billing, now model.medical_project.silver_patients)
+[0m21:36:41.218762 [debug] [Thread-3 (]: Began compiling node model.medical_project.silver_patients
+[0m21:36:41.226498 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.silver_patients"
+[0m21:36:41.227498 [debug] [Thread-3 (]: Began executing node model.medical_project.silver_patients
+[0m21:36:41.231497 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.silver_patients"
+[0m21:36:41.234531 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.silver_patients"
+[0m21:36:41.235835 [debug] [Thread-3 (]: On model.medical_project.silver_patients: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_patients"} */
+create or replace transient table MEDICAL_DB.silver.silver_patients
+    
+
+    
+    as (
+
+SELECT
+  patient_id,
+  TRIM(UPPER(first_name)) AS first_name,
+  TRIM(UPPER(last_name)) AS last_name,
+  TRIM(UPPER(first_name)) || ' ' || TRIM(UPPER(last_name)) AS full_name,
+  date_of_birth,
+  
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ AS age,
+  
+  CASE
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ < 18 THEN 'Minor'
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ BETWEEN 18 AND 39 THEN 'Young Adult'
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ BETWEEN 40 AND 59 THEN 'Middle Age'
+    WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ BETWEEN 60 AND 79 THEN 'Senior'
+    ELSE 'Elderly'
+  END
+ AS age_group,
+  CASE WHEN 
+  DATEDIFF('year', date_of_birth, CURRENT_DATE())
+ >= 65 THEN 'Senior' ELSE 'Non-Senior' END AS senior_status,
+  UPPER(gender) AS gender,
+  blood_type,
+  CASE 
+    WHEN blood_type IN ('O+','O-') THEN 'Universal Donor'
+    WHEN blood_type IN ('AB+','AB-') THEN 'Universal Recipient'
+    ELSE 'Standard' END AS blood_type_category,
+  phone,
+  LOWER(TRIM(email)) AS email,
+  address,
+  TRIM(UPPER(city)) AS city,
+  UPPER(state) AS state,
+  zip_code,
+  insurance_type,
+  CASE 
+    WHEN insurance_type IN ('Medicare','Medicaid') THEN 'Government'
+    WHEN insurance_type = 'Private' THEN 'Commercial'
+    ELSE 'Other' END AS insurance_category,
+  emergency_contact,
+  created_at,
+  updated_at,
+  dbt_loaded_at,
+  dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_patients
+WHERE patient_id IS NOT NULL
+    )
+;
+[0m21:36:41.632711 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.535 seconds
+[0m21:36:41.636970 [info ] [Thread-1 (]: 7 of 17 OK created sql table model silver.silver_appointments .................. [[32mSUCCESS 1[0m in 0.56s]
+[0m21:36:41.639430 [debug] [Thread-1 (]: Finished running node model.medical_project.silver_appointments
+[0m21:36:41.640429 [debug] [Thread-1 (]: Began running node model.medical_project.silver_medical_records
+[0m21:36:41.641428 [info ] [Thread-1 (]: 10 of 17 START sql table model silver.silver_medical_records ................... [RUN]
+[0m21:36:41.642800 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_appointments, now model.medical_project.silver_medical_records)
+[0m21:36:41.644308 [debug] [Thread-1 (]: Began compiling node model.medical_project.silver_medical_records
+[0m21:36:41.650293 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.silver_medical_records"
+[0m21:36:41.652864 [debug] [Thread-1 (]: Began executing node model.medical_project.silver_medical_records
+[0m21:36:41.656261 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.silver_medical_records"
+[0m21:36:41.659749 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.silver_medical_records"
+[0m21:36:41.660751 [debug] [Thread-1 (]: On model.medical_project.silver_medical_records: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.silver_medical_records"} */
+create or replace transient table MEDICAL_DB.silver.silver_medical_records
+    
+
+    
+    as (
+
+WITH diagnosis_mapping AS (
+  SELECT * FROM MEDICAL_DB.reference.diagnosis_codes
+)
+SELECT
+  mr.record_id,
+  mr.appointment_id,
+  mr.patient_id,
+  TRIM(mr.diagnosis) AS diagnosis,
+  COALESCE(dm.diagnosis_category,'Other') AS diagnosis_category,
+  COALESCE(dm.icd_10_code,'Unknown') AS icd_10_code,
+  TRIM(mr.treatment_plan) AS treatment_plan,
+  CASE 
+    WHEN mr.treatment_plan = 'Medication' THEN 'Pharmacological'
+    WHEN mr.treatment_plan IN ('Surgery','Procedure') THEN 'Surgical'
+    WHEN mr.treatment_plan IN ('Physical Therapy','Counseling') THEN 'Therapeutic'
+    ELSE 'Conservative' END AS treatment_category,
+  mr.prescription,
+  mr.follow_up_required,
+  CASE WHEN mr.follow_up_required = 'Y' THEN 1 ELSE 0 END AS needs_follow_up,
+  mr.severity,
+  CASE 
+    WHEN mr.severity = 'Low' THEN 1
+    WHEN mr.severity = 'Medium' THEN 2
+    WHEN mr.severity = 'High' THEN 3
+    ELSE 0 END AS severity_score,
+  mr.created_at,
+  mr.updated_at,
+  mr.dbt_loaded_at,
+  mr.dbt_batch_id
+FROM MEDICAL_DB.bronze.bronze_medical_records mr
+LEFT JOIN diagnosis_mapping dm ON mr.diagnosis = dm.diagnosis_name
+WHERE mr.record_id IS NOT NULL
+    )
+;
+[0m21:36:41.678669 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.443 seconds
+[0m21:36:41.681659 [info ] [Thread-3 (]: 9 of 17 OK created sql table model silver.silver_patients ...................... [[32mSUCCESS 1[0m in 0.46s]
+[0m21:36:41.681659 [debug] [Thread-3 (]: Finished running node model.medical_project.silver_patients
+[0m21:36:41.683660 [debug] [Thread-3 (]: Began running node model.medical_project.dim_patients
+[0m21:36:41.684672 [info ] [Thread-3 (]: 11 of 17 START sql table model gold.dim_patients ............................... [RUN]
+[0m21:36:41.686702 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_patients, now model.medical_project.dim_patients)
+[0m21:36:41.686702 [debug] [Thread-3 (]: Began compiling node model.medical_project.dim_patients
+[0m21:36:41.692706 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.dim_patients"
+[0m21:36:41.694150 [debug] [Thread-3 (]: Began executing node model.medical_project.dim_patients
+[0m21:36:41.698374 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.dim_patients"
+[0m21:36:41.700375 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.dim_patients"
+[0m21:36:41.700375 [debug] [Thread-3 (]: On model.medical_project.dim_patients: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.dim_patients"} */
+create or replace transient table MEDICAL_DB.gold.dim_patients
+    
+
+    
+    as (
+
+SELECT
+  patient_id,
+  first_name,
+  last_name,
+  full_name,
+  date_of_birth,
+  age,
+  age_group,
+  senior_status,
+  gender,
+  blood_type,
+  blood_type_category,
+  city,
+  state,
+  insurance_type,
+  insurance_category,
+  emergency_contact,
+  created_at AS patient_since,
+  DATEDIFF('day', created_at, CURRENT_DATE()) AS days_as_patient,
+  CURRENT_TIMESTAMP() AS last_updated
+FROM MEDICAL_DB.silver.silver_patients
+    )
+;
+[0m21:36:41.735669 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.603 seconds
+[0m21:36:41.738670 [info ] [Thread-2 (]: 8 of 17 OK created sql table model silver.silver_doctors ....................... [[32mSUCCESS 1[0m in 0.62s]
+[0m21:36:41.738670 [debug] [Thread-2 (]: Finished running node model.medical_project.silver_doctors
+[0m21:36:41.740178 [debug] [Thread-2 (]: Began running node model.medical_project.dim_doctors
+[0m21:36:41.741729 [info ] [Thread-2 (]: 12 of 17 START sql table model gold.dim_doctors ................................ [RUN]
+[0m21:36:41.742206 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_doctors, now model.medical_project.dim_doctors)
+[0m21:36:41.742846 [debug] [Thread-2 (]: Began compiling node model.medical_project.dim_doctors
+[0m21:36:41.747364 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.dim_doctors"
+[0m21:36:41.748367 [debug] [Thread-2 (]: Began executing node model.medical_project.dim_doctors
+[0m21:36:41.751391 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.dim_doctors"
+[0m21:36:41.752399 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.dim_doctors"
+[0m21:36:41.754417 [debug] [Thread-2 (]: On model.medical_project.dim_doctors: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.dim_doctors"} */
+create or replace transient table MEDICAL_DB.gold.dim_doctors
+    
+
+    
+    as (
+
+SELECT
+  doctor_id,
+  doctor_name,
+  specialty,
+  specialty_category,
+  experience_level,
+  care_category,
+  years_experience,
+  tenure_years,
+  is_active_flag,
+  hired_date,
+  CURRENT_TIMESTAMP() AS last_updated
+FROM MEDICAL_DB.silver.silver_doctors
+    )
+;
+[0m21:36:42.157924 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.497 seconds
+[0m21:36:42.164364 [info ] [Thread-1 (]: 10 of 17 OK created sql table model silver.silver_medical_records .............. [[32mSUCCESS 1[0m in 0.52s]
+[0m21:36:42.166390 [debug] [Thread-1 (]: Finished running node model.medical_project.silver_medical_records
+[0m21:36:42.212778 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.512 seconds
+[0m21:36:42.216282 [info ] [Thread-3 (]: 11 of 17 OK created sql table model gold.dim_patients .......................... [[32mSUCCESS 1[0m in 0.53s]
+[0m21:36:42.217294 [debug] [Thread-3 (]: Finished running node model.medical_project.dim_patients
+[0m21:36:42.254444 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.499 seconds
+[0m21:36:42.257975 [info ] [Thread-2 (]: 12 of 17 OK created sql table model gold.dim_doctors ........................... [[32mSUCCESS 1[0m in 0.51s]
+[0m21:36:42.258972 [debug] [Thread-2 (]: Finished running node model.medical_project.dim_doctors
+[0m21:36:42.259974 [debug] [Thread-1 (]: Began running node model.medical_project.fact_appointments
+[0m21:36:42.261485 [info ] [Thread-1 (]: 13 of 17 START sql table model gold.fact_appointments .......................... [RUN]
+[0m21:36:42.264408 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.medical_project.silver_medical_records, now model.medical_project.fact_appointments)
+[0m21:36:42.264408 [debug] [Thread-1 (]: Began compiling node model.medical_project.fact_appointments
+[0m21:36:42.270431 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.fact_appointments"
+[0m21:36:42.276425 [debug] [Thread-1 (]: Began executing node model.medical_project.fact_appointments
+[0m21:36:42.280430 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.fact_appointments"
+[0m21:36:42.284454 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.fact_appointments"
+[0m21:36:42.285466 [debug] [Thread-1 (]: On model.medical_project.fact_appointments: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.fact_appointments"} */
+create or replace transient table MEDICAL_DB.gold.fact_appointments
+    
+
+    
+    as (
+
+SELECT 
+  a.appointment_id,
+  a.patient_id,
+  a.doctor_id,
+  a.appointment_date,
+  a.appointment_date_only,
+  a.day_of_week,
+  a.day_type,
+  a.time_slot,
+  a.appointment_type,
+  a.status,
+  a.is_completed,
+  a.is_no_show,
+  a.is_cancelled,
+  a.duration_minutes,
+  a.duration_category,
+  -- Patient context
+  p.age_group AS patient_age_group,
+  p.insurance_category AS patient_insurance_category,
+  p.senior_status AS patient_senior_status,
+  -- Doctor context
+  d.specialty AS doctor_specialty,
+  d.experience_level AS doctor_experience_level,
+  d.care_category AS doctor_care_category,
+  -- Business metrics (illustrative)
+  CASE 
+    WHEN a.appointment_type = 'Emergency' THEN 500
+    WHEN a.appointment_type = 'Surgery' THEN 2000
+    WHEN a.appointment_type = 'Consultation' THEN 200
+    WHEN a.appointment_type = 'Follow-up' THEN 100
+    WHEN a.appointment_type = 'Screening' THEN 150
+    ELSE 175 END AS estimated_revenue,
+  a.created_at,
+  CURRENT_TIMESTAMP() AS last_updated
+FROM MEDICAL_DB.silver.silver_appointments a
+LEFT JOIN MEDICAL_DB.gold.dim_patients p ON a.patient_id = p.patient_id
+LEFT JOIN MEDICAL_DB.gold.dim_doctors d ON a.doctor_id = d.doctor_id
+    )
+;
+[0m21:36:42.943047 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.657 seconds
+[0m21:36:42.947120 [info ] [Thread-1 (]: 13 of 17 OK created sql table model gold.fact_appointments ..................... [[32mSUCCESS 1[0m in 0.68s]
+[0m21:36:42.950142 [debug] [Thread-1 (]: Finished running node model.medical_project.fact_appointments
+[0m21:36:42.951654 [debug] [Thread-2 (]: Began running node model.medical_project.fact_billing
+[0m21:36:42.951654 [debug] [Thread-3 (]: Began running node model.medical_project.fact_medical_outcomes
+[0m21:36:42.953668 [info ] [Thread-2 (]: 14 of 17 START sql table model gold.fact_billing ............................... [RUN]
+[0m21:36:42.954666 [info ] [Thread-3 (]: 15 of 17 START sql table model gold.fact_medical_outcomes ...................... [RUN]
+[0m21:36:42.957659 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.medical_project.dim_doctors, now model.medical_project.fact_billing)
+[0m21:36:42.958694 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_project.dim_patients, now model.medical_project.fact_medical_outcomes)
+[0m21:36:42.959712 [debug] [Thread-2 (]: Began compiling node model.medical_project.fact_billing
+[0m21:36:42.960708 [debug] [Thread-3 (]: Began compiling node model.medical_project.fact_medical_outcomes
+[0m21:36:42.969269 [debug] [Thread-2 (]: Writing injected SQL for node "model.medical_project.fact_billing"
+[0m21:36:42.975321 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.fact_medical_outcomes"
+[0m21:36:42.977664 [debug] [Thread-2 (]: Began executing node model.medical_project.fact_billing
+[0m21:36:42.978662 [debug] [Thread-3 (]: Began executing node model.medical_project.fact_medical_outcomes
+[0m21:36:42.984744 [debug] [Thread-2 (]: Writing runtime sql for node "model.medical_project.fact_billing"
+[0m21:36:42.988775 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.fact_medical_outcomes"
+[0m21:36:42.991772 [debug] [Thread-2 (]: Using snowflake connection "model.medical_project.fact_billing"
+[0m21:36:42.993057 [debug] [Thread-2 (]: On model.medical_project.fact_billing: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.fact_billing"} */
+create or replace transient table MEDICAL_DB.gold.fact_billing
+    
+
+    
+    as (
+
+SELECT 
+  b.billing_id,
+  b.appointment_id,
+  b.patient_id,
+  b.total_amount,
+  b.insurance_paid,
+  b.patient_paid,
+  b.insurance_coverage_percentage,
+  b.revenue_tier,
+  b.coverage_quality,
+  b.payment_status,
+  b.collection_status,
+  b.is_overdue,
+  b.days_since_billing,
+  -- Appointment context
+  a.appointment_date,
+  a.appointment_type,
+  a.time_slot,
+  a.doctor_id,
+  -- Patient context
+  p.insurance_category AS patient_insurance_category,
+  p.age_group AS patient_age_group,
+  -- Doctor context
+  d.specialty AS service_specialty,
+  d.care_category AS service_care_category,
+  b.created_at,
+  CURRENT_TIMESTAMP() AS last_updated
+FROM MEDICAL_DB.silver.silver_billing b
+LEFT JOIN MEDICAL_DB.gold.fact_appointments a ON b.appointment_id = a.appointment_id
+LEFT JOIN MEDICAL_DB.gold.dim_patients p ON b.patient_id = p.patient_id
+LEFT JOIN MEDICAL_DB.gold.dim_doctors d ON a.doctor_id = d.doctor_id
+    )
+;
+[0m21:36:42.994569 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.fact_medical_outcomes"
+[0m21:36:42.997577 [debug] [Thread-3 (]: On model.medical_project.fact_medical_outcomes: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.fact_medical_outcomes"} */
+create or replace transient table MEDICAL_DB.gold.fact_medical_outcomes
+    
+
+    
+    as (
+
+SELECT 
+  mr.record_id,
+  mr.appointment_id,
+  mr.patient_id,
+  mr.diagnosis,
+  mr.diagnosis_category,
+  mr.treatment_plan,
+  mr.treatment_category,
+  mr.severity,
+  mr.severity_score,
+  mr.needs_follow_up,
+  -- Appointment context
+  a.appointment_date,
+  a.appointment_type,
+  a.doctor_id,
+  -- Patient context
+  p.age_group AS patient_age_group,
+  p.senior_status AS patient_senior_status,
+  -- Doctor context
+  d.specialty AS treating_specialty,
+  d.care_category AS treating_care_category,
+  -- Risk assessment
+  CASE 
+    WHEN mr.severity = 'High' AND p.age >= 65 THEN 'Critical Risk'
+    WHEN mr.severity = 'High' OR p.age >= 75 THEN 'High Risk'
+    WHEN mr.severity = 'Medium' AND p.age >= 50 THEN 'Moderate Risk'
+    ELSE 'Low Risk' END AS patient_risk_level,
+  mr.created_at,
+  CURRENT_TIMESTAMP() AS last_updated
+FROM MEDICAL_DB.silver.silver_medical_records mr
+LEFT JOIN MEDICAL_DB.gold.fact_appointments a ON mr.appointment_id = a.appointment_id
+LEFT JOIN MEDICAL_DB.gold.dim_patients p ON mr.patient_id = p.patient_id
+LEFT JOIN MEDICAL_DB.gold.dim_doctors d ON a.doctor_id = d.doctor_id
+    )
+;
+[0m21:36:43.744592 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.746 seconds
+[0m21:36:43.747598 [info ] [Thread-3 (]: 15 of 17 OK created sql table model gold.fact_medical_outcomes ................. [[32mSUCCESS 1[0m in 0.79s]
+[0m21:36:43.748603 [debug] [Thread-3 (]: Finished running node model.medical_project.fact_medical_outcomes
+[0m21:36:43.781869 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.786 seconds
+[0m21:36:43.785412 [info ] [Thread-2 (]: 14 of 17 OK created sql table model gold.fact_billing .......................... [[32mSUCCESS 1[0m in 0.83s]
+[0m21:36:43.786884 [debug] [Thread-2 (]: Finished running node model.medical_project.fact_billing
+[0m21:36:43.788881 [debug] [Thread-1 (]: Began running node model.medical_project.kpi_dashboard
+[0m21:36:43.788881 [debug] [Thread-3 (]: Began running node model.medical_project.patient_summary
+[0m21:36:43.789885 [info ] [Thread-1 (]: 16 of 17 START sql table model gold.kpi_dashboard .............................. [RUN]
+[0m21:36:43.790884 [info ] [Thread-3 (]: 17 of 17 START sql table model gold.patient_summary ............................ [RUN]
+[0m21:36:43.791882 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.medical_project.fact_appointments, now model.medical_project.kpi_dashboard)
+[0m21:36:43.793535 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_project.fact_medical_outcomes, now model.medical_project.patient_summary)
+[0m21:36:43.794544 [debug] [Thread-1 (]: Began compiling node model.medical_project.kpi_dashboard
+[0m21:36:43.795770 [debug] [Thread-3 (]: Began compiling node model.medical_project.patient_summary
+[0m21:36:43.799953 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_project.kpi_dashboard"
+[0m21:36:43.807228 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_project.patient_summary"
+[0m21:36:43.809271 [debug] [Thread-1 (]: Began executing node model.medical_project.kpi_dashboard
+[0m21:36:43.814549 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_project.kpi_dashboard"
+[0m21:36:43.814549 [debug] [Thread-3 (]: Began executing node model.medical_project.patient_summary
+[0m21:36:43.820115 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_project.patient_summary"
+[0m21:36:43.823811 [debug] [Thread-1 (]: Using snowflake connection "model.medical_project.kpi_dashboard"
+[0m21:36:43.823811 [debug] [Thread-1 (]: On model.medical_project.kpi_dashboard: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.kpi_dashboard"} */
+create or replace transient table MEDICAL_DB.gold.kpi_dashboard
+    
+
+    
+    as (
+
+WITH appt AS (
+  SELECT 
+    COUNT(*) AS total_appointments,
+    SUM(CASE WHEN is_completed = 1 THEN 1 ELSE 0 END) AS completed_appointments,
+    SUM(CASE WHEN is_no_show = 1 THEN 1 ELSE 0 END) AS no_shows
+  FROM MEDICAL_DB.gold.fact_appointments
+),
+rev AS (
+  SELECT 
+    SUM(total_amount) AS total_revenue,
+    SUM(patient_paid) AS total_patient_paid,
+    SUM(insurance_paid) AS total_insurance_paid
+  FROM MEDICAL_DB.gold.fact_billing
+)
+SELECT 
+  a.total_appointments,
+  a.completed_appointments,
+  a.no_shows,
+  ROUND(a.no_shows * 100.0 / NULLIF(a.total_appointments, 0), 2) AS no_show_rate_pct,
+  r.total_revenue,
+  r.total_patient_paid,
+  r.total_insurance_paid,
+  CURRENT_DATE() AS kpi_as_of_date
+FROM appt a CROSS JOIN rev r
+    )
+;
+[0m21:36:43.829219 [debug] [Thread-3 (]: Using snowflake connection "model.medical_project.patient_summary"
+[0m21:36:43.830220 [debug] [Thread-3 (]: On model.medical_project.patient_summary: /* {"app": "dbt", "dbt_version": "1.9.0", "profile_name": "medical_project", "target_name": "dev", "node_id": "model.medical_project.patient_summary"} */
+create or replace transient table MEDICAL_DB.gold.patient_summary
+    
+
+    
+    as (
+
+WITH agg AS (
+  SELECT 
+    p.patient_id,
+    COUNT(DISTINCT a.appointment_id) AS total_appointments,
+    COUNT(DISTINCT CASE WHEN a.is_completed = 1 THEN a.appointment_id END) AS completed_appointments,
+    COUNT(DISTINCT CASE WHEN a.is_no_show = 1 THEN a.appointment_id END) AS no_show_count,
+    COUNT(DISTINCT mr.record_id) AS total_diagnoses,
+    COUNT(DISTINCT mr.diagnosis) AS unique_diagnoses,
+    COUNT(DISTINCT CASE WHEN mr.severity = 'High' THEN mr.record_id END) AS high_severity_cases,
+    COUNT(DISTINCT CASE WHEN mr.needs_follow_up = 1 THEN mr.record_id END) AS follow_ups_needed,
+    COALESCE(SUM(b.total_amount), 0) AS lifetime_revenue,
+    COALESCE(SUM(b.patient_paid), 0) AS total_patient_payments,
+    COALESCE(SUM(b.insurance_paid), 0) AS total_insurance_payments,
+    COALESCE(AVG(b.insurance_coverage_percentage), 0) AS avg_insurance_coverage,
+    MAX(a.appointment_date) AS last_visit_date,
+    MIN(a.appointment_date) AS first_visit_date
+  FROM MEDICAL_DB.gold.dim_patients p
+  LEFT JOIN MEDICAL_DB.gold.fact_appointments a ON p.patient_id = a.patient_id
+  LEFT JOIN MEDICAL_DB.silver.silver_medical_records mr ON p.patient_id = mr.patient_id
+  LEFT JOIN MEDICAL_DB.gold.fact_billing b ON p.patient_id = b.patient_id
+  GROUP BY 1
+)
+SELECT 
+  p.patient_id,
+  p.full_name,
+  p.age,
+  p.age_group,
+  p.insurance_category,
+  a.total_appointments,
+  a.completed_appointments,
+  a.no_show_count,
+  ROUND(a.no_show_count * 100.0 / NULLIF(a.total_appointments, 0), 2) AS no_show_rate,
+  a.total_diagnoses,
+  a.unique_diagnoses,
+  a.high_severity_cases,
+  a.follow_ups_needed,
+  a.lifetime_revenue,
+  a.total_patient_payments,
+  a.total_insurance_payments,
+  a.avg_insurance_coverage,
+  a.last_visit_date,
+  a.first_visit_date,
+  DATEDIFF('day', a.first_visit_date, a.last_visit_date) AS patient_journey_days,
+  CURRENT_TIMESTAMP() AS last_updated
+FROM MEDICAL_DB.gold.dim_patients p
+LEFT JOIN agg a ON p.patient_id = a.patient_id
+    )
+;
+[0m21:36:44.333481 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.508 seconds
+[0m21:36:44.337509 [info ] [Thread-1 (]: 16 of 17 OK created sql table model gold.kpi_dashboard ......................... [[32mSUCCESS 1[0m in 0.55s]
+[0m21:36:44.339521 [debug] [Thread-1 (]: Finished running node model.medical_project.kpi_dashboard
+[0m21:36:44.604504 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.773 seconds
+[0m21:36:44.608029 [info ] [Thread-3 (]: 17 of 17 OK created sql table model gold.patient_summary ....................... [[32mSUCCESS 1[0m in 0.81s]
+[0m21:36:44.610031 [debug] [Thread-3 (]: Finished running node model.medical_project.patient_summary
+[0m21:36:44.612882 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:36:44.612882 [debug] [MainThread]: Connection 'list_MEDICAL_DB' was left open.
+[0m21:36:44.614382 [debug] [MainThread]: On list_MEDICAL_DB: Close
+[0m21:36:44.707941 [debug] [MainThread]: Connection 'list_MEDICAL_DB' was left open.
+[0m21:36:44.708938 [debug] [MainThread]: On list_MEDICAL_DB: Close
+[0m21:36:44.755368 [debug] [MainThread]: Connection 'list_MEDICAL_DB' was left open.
+[0m21:36:44.756768 [debug] [MainThread]: On list_MEDICAL_DB: Close
+[0m21:36:44.804651 [debug] [MainThread]: Connection 'list_MEDICAL_DB_silver' was left open.
+[0m21:36:44.805659 [debug] [MainThread]: On list_MEDICAL_DB_silver: Close
+[0m21:36:44.855601 [debug] [MainThread]: Connection 'list_MEDICAL_DB_bronze' was left open.
+[0m21:36:44.856601 [debug] [MainThread]: On list_MEDICAL_DB_bronze: Close
+[0m21:36:44.903764 [debug] [MainThread]: Connection 'list_MEDICAL_DB_gold' was left open.
+[0m21:36:44.904767 [debug] [MainThread]: On list_MEDICAL_DB_gold: Close
+[0m21:36:44.952799 [debug] [MainThread]: Connection 'model.medical_project.kpi_dashboard' was left open.
+[0m21:36:44.954306 [debug] [MainThread]: On model.medical_project.kpi_dashboard: Close
+[0m21:36:45.011346 [debug] [MainThread]: Connection 'model.medical_project.fact_billing' was left open.
+[0m21:36:45.012353 [debug] [MainThread]: On model.medical_project.fact_billing: Close
+[0m21:36:45.074652 [debug] [MainThread]: Connection 'model.medical_project.patient_summary' was left open.
+[0m21:36:45.075162 [debug] [MainThread]: On model.medical_project.patient_summary: Close
+[0m21:36:45.124477 [info ] [MainThread]: 
+[0m21:36:45.125491 [info ] [MainThread]: Finished running 17 table models in 0 hours 0 minutes and 6.61 seconds (6.61s).
+[0m21:36:45.130308 [debug] [MainThread]: Command end result
+[0m21:36:45.254690 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\ADMIN\dbt_core\medical_project\target\manifest.json
+[0m21:36:45.258782 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\ADMIN\dbt_core\medical_project\target\semantic_manifest.json
+[0m21:36:45.267137 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\ADMIN\dbt_core\medical_project\target\run_results.json
+[0m21:36:45.267137 [info ] [MainThread]: 
+[0m21:36:45.268135 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:36:45.269149 [info ] [MainThread]: 
+[0m21:36:45.270179 [info ] [MainThread]: Done. PASS=17 WARN=0 ERROR=0 SKIP=0 TOTAL=17
+[0m21:36:45.271703 [debug] [MainThread]: Command `dbt run` succeeded at 21:36:45.270179 after 8.46 seconds
+[0m21:36:45.271703 [debug] [MainThread]: Flushing usage events
+[0m22:17:04.403919 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 22:17:04.442609 | eaa70563-bda0-4713-a3af-ed49bdd24ae2 ==============================
+[0m22:17:04.442609 [info ] [MainThread]: Running with dbt=1.9.0
+[0m22:17:04.443945 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'c:\\Users\\ADMIN\\dbt_core\\medical_project\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:17:04.653665 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:17:04.656181 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:17:04.658212 [debug] [MainThread]: Command `cli deps` succeeded at 22:17:04.658212 after 0.33 seconds
+[0m22:17:04.659221 [debug] [MainThread]: Flushing usage events

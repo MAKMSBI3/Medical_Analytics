@@ -1,0 +1,1 @@
+{{ test_unique(column_name="appointment_id", model=get_where_subquery(source('medical_raw', 'appointments'))) }}

@@ -1,0 +1,1 @@
+{{ test_not_null(column_name="billing_id", model=get_where_subquery(source('medical_raw', 'billing'))) }}
